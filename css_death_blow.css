@@ -1,0 +1,28 @@
+/*!
+ * Chris Carolan
+ */
+
+ *,
+ *:after,
+ *:before {
+    box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+img {
+  float: right;
+  
+  }
+body {
+    background-color: #d5dbff;
+    color: #ffffff;
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+ }
+  .center-text {
+    text-align: center;
+    font-size: 40px;
+    color: #014227;
+ }
