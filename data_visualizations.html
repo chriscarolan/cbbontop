@@ -57,7 +57,24 @@
         <div class="content-area">
             <div id="plot-container">
                 <iframe src="scatter_plot.html" width="100%" height="590px" frameborder="0"></iframe>
+                
+                <!-- Mobile-friendly controls -->
+                <div class="mobile-controls" style="display: none; margin-top: 10px;">
+                    <p>Mobile users: Use the dropdowns in the chart above, or try these quick options:</p>
+                    <button onclick="changeXAxis('Cbbontop_Score')">Cbbontop Score</button>
+                    <button onclick="changeXAxis('Wins')">Wins</button>
+                    <button onclick="changeYAxis('Cbbontop_Score')">Y: Cbbontop Score</button>
+                    <button onclick="changeYAxis('Wins')">Y: Wins</button>
+                </div>
             </div>
+            
+            <style>
+            @media (max-width: 768px) {
+                .mobile-controls {
+                    display: block !important;
+                }
+            }
+            </style>
         </div>
     </div>
 </body>
