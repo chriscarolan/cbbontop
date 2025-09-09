@@ -30,6 +30,7 @@ for net_row in net_column_data[1:]:
   length = len(net_df)
   net_df.loc[length] = net_individual_row_data
 
+net_df[['Wins', 'Losses']] = net_df['Record'].str.split('-', expand=True)
 net_df[['Quad_1_Wins', 'Quad_1_Losses']] = net_df['Quad 1'].str.split('-', expand=True)
 net_df = net_df.drop(['Quad 1'], axis=1)
 net_df[['Quad_2_Wins', 'Quad_2_Losses']] = net_df['Quad 2'].str.split('-', expand=True)
@@ -42,6 +43,8 @@ net_df = net_df.drop(['Quad 4'], axis=1)
 net_df['Rank'] = net_df['Rank'].astype('int64')
 net_df['Previous'] = net_df['Previous'].astype('int64')
 net_df['WAB'] = net_df['WAB'].astype('int64')
+net_df['Wins'] = net_df['Wins'].astype('int64')
+net_df['Losses'] = net_df['Losses'].astype('int64')
 net_df['Quad_1_Wins'] = net_df['Quad_1_Wins'].astype('int64')
 net_df['Quad_1_Losses'] = net_df['Quad_1_Losses'].astype('int64')
 net_df['Quad_2_Wins'] = net_df['Quad_2_Wins'].astype('int64')
@@ -360,4 +363,6 @@ rankings_data = rankings_df.to_dict('records')
 with open('cbbontop_rankings.json', 'w') as f:
     json.dump(rankings_data, f, indent=2)
 
-cbbontop_score[['School', 'Conference', 'Record', 'Cbbontop_Score', 'Cbbontop_Rank']]
+#cbbontop_score[['School', 'Conference', 'Record', 'Cbbontop_Score', 'Cbbontop_Rank']]
+
+cbbontop_score.to_pickle('cbbontop_score.pkl')

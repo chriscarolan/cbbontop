@@ -1,33 +1,64 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-        <h1 class="center-text">Cbbontop</h1>
-        <img src="cbbontop logo.png" alt="Page logo", style="width:100px;height:100px;">
-    </head>
-    <body>
-        <link type="text/css" rel="stylesheet" media="all" href="css_death_blow.css" />
-        <h1 class="center-text">Data Visualizations</h1>
-        <div class="main-container">
-            <button id="MainButton" onclick="window.location.href='main_page.html'">Main Page</button>
-            <p id="main"></p>
-        <div class="prediction-container">
-            <button id="GamePredictionsButton" onclick="window.location.href='game_predictions.html'">Game Predictions</button>
-            <p id="predictions"></p>
-        <div class="DeathBlow-container">
-            <button id="DeathBlowButton" onclick="window.location.href='death_blow.html'">Death Blow</button>
-            <p id="DeathBlow"></p>
-        <div class="Visualizations-container">
-            <button id="VisualizationButton" onclick="window.location.href='data_visualizations.html'">Stats Visualized</button>
-            <p id="DataViz"></p>
-        <div class="StatLeaders-container">
-            <button id="StatsButton" onclick="window.location.href='stat_leaders.html'">Stats Leaders</button>
-            <p id="Stats"></p>
-        <div class="Streaks-container">
-            <button id="StreaksButton" onclick="window.location.href='stat_streaks.html'">Stat Streaks</button>
-            <p id="Streaks"></p>
-        <div class="BracketBuilder-container">
-            <button id="BracketButton" onclick="window.location.href='bracket_builder.html'">Bracket Builder</button>
-            <p id="Bracket"></p>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Visualizations - Cbbontop</title>
+    <link type="text/css" rel="stylesheet" media="all" href="css_death_blow.css" />
+    <style>
+        .page-layout {
+            display: flex;
+            gap: 20px;
+        }
+        .navigation-sidebar {
+            width: 200px;
+            flex-shrink: 0;
+        }
+        .content-area {
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="center-text">Data Visualizations</h1>
+    
+    <div class="page-layout">
+        <div class="navigation-sidebar">
+            <div class="main-container">
+                <button id="MainButton" onclick="window.location.href='main_page.html'">Main Page</button>
+                <p id="main"></p>
+            </div>
+            <div class="prediction-container">
+                <button id="GamePredictionsButton" onclick="window.location.href='game_predictions.html'">Game Predictions</button>
+                <p id="predictions"></p>
+            </div>
+            <div class="DeathBlow-container">
+                <button id="DeathBlowButton" onclick="window.location.href='death_blow.html'">Death Blow</button>
+                <p id="DeathBlow"></p>
+            </div>
+            <div class="Visualizations-container">
+                <button id="VisualizationButton" onclick="window.location.href='data_visualizations.html'">Stats Visualized</button>
+                <p id="DataViz"></p>
+            </div>
+            <div class="StatLeaders-container">
+                <button id="StatsButton" onclick="window.location.href='stat_leaders.html'">Stats Leaders</button>
+                <p id="Stats"></p>
+            </div>
+            <div class="Streaks-container">
+                <button id="StreaksButton" onclick="window.location.href='stat_streaks.html'">Stat Streaks</button>
+                <p id="Streaks"></p>
+            </div>
+            <div class="BracketBuilder-container">
+                <button id="BracketButton" onclick="window.location.href='bracket_builder.html'">Bracket Builder</button>
+                <p id="Bracket"></p>
+            </div>
+        </div>
+        
+        <div class="content-area">
+            <div id="plot-container">
+                <iframe src="scatter_plot.html" width="100%" height="590px" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
