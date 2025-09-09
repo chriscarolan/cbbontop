@@ -65,10 +65,11 @@ img {
    float: right;
    
    }
-/* Mobile-first responsive design */
+/* Mobile responsive design */
 @media (max-width: 768px) {
     .page-layout {
         flex-direction: column; /* Stack vertically on mobile */
+        gap: 10px;
     }
     
     .navigation-sidebar {
@@ -81,23 +82,38 @@ img {
         width: 100%;
     }
     
-    /* Make buttons smaller and stack better */
-    .navigation-sidebar button {
-        width: 100%;
-        margin-bottom: 8px;
-        padding: 10px;
-        font-size: 14px;
+    /* Make navigation buttons smaller and horizontal */
+    .navigation-sidebar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        justify-content: center;
     }
     
-    /* Adjust table for mobile */
-    .rankings-table {
+    .navigation-sidebar button {
+        flex: 1;
+        min-width: 120px;
+        margin-bottom: 8px;
+        padding: 8px 12px;
         font-size: 12px;
+    }
+    
+    /* Make table responsive */
+    .rankings-table {
+        font-size: 11px;
         overflow-x: auto; /* Horizontal scroll if needed */
     }
     
     .rankings-table th,
     .rankings-table td {
-        padding: 6px 4px;
+        padding: 4px 2px;
+        white-space: nowrap;
+    }
+    
+    /* Adjust header for mobile */
+    .center-text {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
     }
 }
 
@@ -109,6 +125,11 @@ img {
     
     .rankings-table th,
     .rankings-table td {
-        padding: 4px 2px;
+        padding: 3px 1px;
+    }
+    
+    .navigation-sidebar button {
+        font-size: 11px;
+        padding: 6px 8px;
     }
 }
