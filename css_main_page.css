@@ -78,6 +78,7 @@ img {
         background-color: rgba(0,0,0,0.9);
         z-index: 1000;
         padding: 20px;
+        overflow-y: auto;
     }
     
     /* Show navigation when active */
@@ -97,6 +98,8 @@ img {
         margin: 10px auto;
         border-radius: 5px;
         width: 200px;
+        -webkit-tap-highlight-color: transparent;
+        touch-action: manipulation;
     }
     
     /* Navigation buttons in mobile menu */
@@ -111,15 +114,9 @@ img {
         border: none;
         border-radius: 5px;
         cursor: pointer;
-    }
-    
-    /* Close button for mobile menu */
-    .mobile-menu-btn::after {
-        content: " ✕";
-    }
-    
-    .mobile-menu-btn.active::after {
-        content: " ✕";
+        -webkit-tap-highlight-color: transparent;
+        touch-action: manipulation;
+        min-height: 44px; /* Apple's recommended minimum touch target */
     }
     
     /* Rankings table adjustments */
@@ -148,4 +145,3 @@ img {
         display: block;
     }
 }
-

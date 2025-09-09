@@ -83,7 +83,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const navigationMenu = document.getElementById('navigation-menu');
     
     if (mobileMenuBtn && navigationMenu) {
-        mobileMenuBtn.addEventListener('click', function() {
+        mobileMenuBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
             navigationMenu.classList.toggle('active');
             
             // Change button text
