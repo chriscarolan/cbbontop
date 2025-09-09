@@ -1,81 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0", user-scalable=no">
-    <title>Data Visualizations - Cbbontop</title>
-    <link type="text/css" rel="stylesheet" media="all" href="css_data_visualization.css" />
-    <style>
-        .page-layout {
-            display: flex;
-            gap: 20px;
-        }
-        .navigation-sidebar {
-            width: 200px;
-            flex-shrink: 0;
-        }
-        .content-area {
-            flex: 1;
-        }
-    </style>
-</head>
-<body>
-    <h1 class="center-text">Data Visualizations</h1>
-    
-    <div class="page-layout">
-        <div class="navigation-sidebar">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <h1 class="center-text">Cbbontop</h1>
+        <img src="cbbontop logo.PNG" alt="Page logo", style="width:100px;height:100px;">
+    </head>
+    <body>
+        <link type="text/css" rel="stylesheet" media="all" href="css_main_page.css" />
+        <h1 class="center-text">College Basketball Analytics</h1>
+        
+        <!-- Mobile hamburger menu button -->
+        <button id="mobile-menu-btn" class="mobile-menu-btn" onclick="toggleMenu()">☰ Menu</button>
+        
+        <!-- Navigation menu -->
+        <div id="navigation-menu" class="navigation-menu">
             <div class="main-container">
                 <button id="MainButton" onclick="window.location.href='index.html'">Main Page</button>
-                <p id="main"></p>
             </div>
             <div class="prediction-container">
                 <button id="GamePredictionsButton" onclick="window.location.href='game_predictions.html'">Game Predictions - in progress</button>
-                <p id="predictions"></p>
             </div>
             <div class="DeathBlow-container">
                 <button id="DeathBlowButton" onclick="window.location.href='death_blow.html'">Death Blow - in progress</button>
-                <p id="DeathBlow"></p>
             </div>
             <div class="Visualizations-container">
                 <button id="VisualizationButton" onclick="window.location.href='data_visualizations.html'">Stats Visualized</button>
-                <p id="DataViz"></p>
             </div>
             <div class="StatLeaders-container">
                 <button id="StatsButton" onclick="window.location.href='stat_leaders.html'">Stats Leaders - in progress</button>
-                <p id="Stats"></p>
             </div>
             <div class="Streaks-container">
                 <button id="StreaksButton" onclick="window.location.href='stat_streaks.html'">Stat Streaks - in progress</button>
-                <p id="Streaks"></p>
             </div>
             <div class="BracketBuilder-container">
                 <button id="BracketButton" onclick="window.location.href='bracket_builder.html'">Bracket Builder - in progress</button>
-                <p id="Bracket"></p>
             </div>
         </div>
         
-        <div class="content-area">
-            <div id="plot-container">
-                <iframe src="scatter_plot.html" width="100%" height="590px" frameborder="0"></iframe>
+        <div id="rankings-display"></div>
+        
+        <script>
+            // Simple menu toggle function
+            function toggleMenu() {
+                var menu = document.getElementById('navigation-menu');
+                var btn = document.getElementById('mobile-menu-btn');
                 
-                <!-- Mobile-friendly controls -->
-                <div class="mobile-controls" style="display: none; margin-top: 10px;">
-                    <p>Mobile users: Use the dropdowns in the chart above, or try these quick options:</p>
-                    <button onclick="changeXAxis('Cbbontop_Score')">Cbbontop Score</button>
-                    <button onclick="changeXAxis('Wins')">Wins</button>
-                    <button onclick="changeYAxis('Cbbontop_Score')">Y: Cbbontop Score</button>
-                    <button onclick="changeYAxis('Wins')">Y: Wins</button>
-                </div>
-            </div>
-            
-            <style>
-            @media (max-width: 768px) {
-                .mobile-controls {
-                    display: block !important;
+                if (menu.style.display === 'block') {
+                    menu.style.display = 'none';
+                    btn.textContent = '☰ Menu';
+                } else {
+                    menu.style.display = 'block';
+                    btn.textContent = '✕ Close';
                 }
             }
-            </style>
-        </div>
-    </div>
-</body>
+            
+            // Close menu when clicking outside
+            document.addEventListener('click', function(event) {
+                var menu = document.getElementById('navigation-menu');
+                var btn = document.getElementById('mobile-menu-btn');
+                
+                if (!btn.contains(event.target) && !menu.contains(event.target)) {
+                    menu.style.display = 'none';
+                    btn.textContent = '☰ Menu';
+                }
+            });
+        </script>
+        
+        <script src="js_website_outline.js"></script>
+    </body>
 </html>

@@ -76,14 +76,9 @@ img {
         width: 100%;
         height: 100%;
         background-color: rgba(0,0,0,0.9);
-        z-index: 1000;
+        z-index: 9999;
         padding: 20px;
         overflow-y: auto;
-    }
-    
-    /* Show navigation when active */
-    .navigation-menu.active {
-        display: block;
     }
     
     /* Hamburger menu button */
@@ -116,7 +111,7 @@ img {
         cursor: pointer;
         -webkit-tap-highlight-color: transparent;
         touch-action: manipulation;
-        min-height: 44px; /* Apple's recommended minimum touch target */
+        min-height: 44px;
     }
     
     /* Rankings table adjustments */
