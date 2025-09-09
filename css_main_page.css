@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    background-color: #f8f9fa;  /* Light gray instead of purple */
+    background-color: #faf8f9;  /* Light gray instead of purple */
     color: #212529;             /* Dark gray text */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -65,55 +65,44 @@ img {
    float: right;
    
    }
-/* Mobile responsive design */
+/* Mobile responsive design - SIMPLE FIX */
 @media (max-width: 768px) {
-    .page-layout {
-        flex-direction: column; /* Stack vertically on mobile */
-        gap: 10px;
-    }
-    
-    .navigation-sidebar {
-        width: 100%; /* Full width on mobile */
-        order: 2; /* Put navigation below content */
-    }
-    
-    .content-area {
-        order: 1; /* Put content above navigation */
+    /* Make all buttons stack vertically and take full width */
+    .main-container,
+    .prediction-container,
+    .DeathBlow-container,
+    .Visualizations-container,
+    .StatLeaders-container,
+    .Streaks-container,
+    .BracketBuilder-container {
+        display: block;
         width: 100%;
+        margin-bottom: 5px;
     }
     
-    /* Make navigation buttons smaller and horizontal */
-    .navigation-sidebar {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 8px;
-        justify-content: center;
+    /* Make buttons full width and smaller */
+    button {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+        margin-bottom: 5px;
     }
     
-    .navigation-sidebar button {
-        flex: 1;
-        min-width: 120px;
-        margin-bottom: 8px;
-        padding: 8px 12px;
-        font-size: 12px;
+    /* Move rankings table to the top */
+    #rankings-display {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        order: -1;
     }
     
-    /* Make table responsive */
+    /* Make table smaller on mobile */
     .rankings-table {
-        font-size: 11px;
-        overflow-x: auto; /* Horizontal scroll if needed */
+        font-size: 12px;
     }
     
     .rankings-table th,
     .rankings-table td {
-        padding: 4px 2px;
-        white-space: nowrap;
-    }
-    
-    /* Adjust header for mobile */
-    .center-text {
-        font-size: 1.8rem;
-        margin-bottom: 1rem;
+        padding: 6px 4px;
     }
 }
 
@@ -133,3 +122,4 @@ img {
         padding: 6px 8px;
     }
 }
+
