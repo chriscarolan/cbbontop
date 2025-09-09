@@ -76,3 +76,30 @@ let btnClick7 = document.querySelector("MainButton")
 btnClick7.addEventListener("click", () => {
     window.location.href = "main_page.html";
 })
+
+// Mobile hamburger menu functionality
+document.addEventListener('DOMContentLoaded', function() {
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const navigationMenu = document.getElementById('navigation-menu');
+    
+    if (mobileMenuBtn && navigationMenu) {
+        mobileMenuBtn.addEventListener('click', function() {
+            navigationMenu.classList.toggle('active');
+            
+            // Change button text
+            if (navigationMenu.classList.contains('active')) {
+                mobileMenuBtn.textContent = '✕ Close';
+            } else {
+                mobileMenuBtn.textContent = '☰ Menu';
+            }
+        });
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', function(event) {
+            if (!mobileMenuBtn.contains(event.target) && !navigationMenu.contains(event.target)) {
+                navigationMenu.classList.remove('active');
+                mobileMenuBtn.textContent = '☰ Menu';
+            }
+        });
+    }
+});
