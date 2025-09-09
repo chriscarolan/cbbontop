@@ -1,7 +1,7 @@
 body {
-    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-    background-color: #d5dbff;
-    color: #333;
+    background-color: #f8f9fa;  /* Light gray instead of purple */
+    color: #212529;             /* Dark gray text */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 20px;
 }

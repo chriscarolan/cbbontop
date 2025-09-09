@@ -14,9 +14,9 @@ html {
 }
 
 body {
-   background-color: #d5dbff;
-   color: #ffffff;
-   font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    background-color: #f8f9fa;  /* Light gray instead of purple */
+    color: #212529;             /* Dark gray text */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .center-text {
    text-align: center;
