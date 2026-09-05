@@ -42,7 +42,7 @@ net_df = net_df.drop(['Quad 4'], axis=1)
 
 net_df['Rank'] = net_df['Rank'].astype('int64')
 #net_df['Previous'] = net_df['Previous'].astype('int64')
-net_df['WAB'] = net_df['WAB'].astype('int64')
+#net_df['WAB'] = net_df['WAB'].astype('int64')
 net_df['Wins'] = net_df['Wins'].astype('int64')
 net_df['Losses'] = net_df['Losses'].astype('int64')
 net_df['Quad_1_Wins'] = net_df['Quad_1_Wins'].astype('int64')
