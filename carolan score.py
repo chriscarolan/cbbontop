@@ -41,7 +41,7 @@ net_df[['Quad_4_Wins', 'Quad_4_Losses']] = net_df['Quad 4'].str.split('-', expan
 net_df = net_df.drop(['Quad 4'], axis=1)
 
 net_df['Rank'] = net_df['Rank'].astype('int64')
-net_df['Previous'] = net_df['Previous'].astype('int64')
+#net_df['Previous'] = net_df['Previous'].astype('int64')
 net_df['WAB'] = net_df['WAB'].astype('int64')
 net_df['Wins'] = net_df['Wins'].astype('int64')
 net_df['Losses'] = net_df['Losses'].astype('int64')
@@ -56,7 +56,7 @@ net_df['Quad_4_Losses'] = net_df['Quad_4_Losses'].astype('int64')
 
 
 ### Team Stats
-offense_url = 'https://basketball.realgm.com/ncaa/team-stats/2025/Averages/Team_Totals/0'
+offense_url = 'https://basketball.realgm.com/ncaa/team-stats/2026/Averages/Team_Totals/0'
 offense_page = requests.get(offense_url)
 offense_soup = BeautifulSoup(offense_page.text, 'html')
 
@@ -86,7 +86,7 @@ offense_df = offense_df.rename(columns={'Team': 'School'})
 
 
 ### Opponent Stats
-opp_url = 'https://basketball.realgm.com/ncaa/team-stats/2025/Averages/Opponent_Totals/0'
+opp_url = 'https://basketball.realgm.com/ncaa/team-stats/2026/Averages/Opponent_Totals/0'
 opp_page = requests.get(opp_url)
 opp_soup = BeautifulSoup(opp_page.text, 'html')
 
