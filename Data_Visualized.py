@@ -379,15 +379,17 @@ Logos = {
 
 logos_df = pd.DataFrame(list(Logos.items()), columns=['School', 'Logo'])
 testing_df_2 = testing_df.merge(logos_df, on='School', how='left')
+testing_df_2 = testing_df_2[testing_df_2['Logo'].notna()].reset_index(drop=True)
 
 
 
 import plotly.graph_objects as go
 
 cols = [ "Cbbontop_Score", "Wins", "Losses", "Quad_1_Wins", "Quad_2_Wins", "Quad_3_Wins", "Quad_4_Wins", "Quad_1_Losses", "Quad_2_Losses", "Quad_3_Losses", 
-        "Quad_4_Losses", "WAB", "PPG", "FGM", 'FGA', 'FG%', '3PM', '3PA', '3P%', 'FTM', 'FTA', 'FT%', 'ORB', 'RPG', 'APG', 'SPG', 'BPG', 'TOV', 'PF', 'Opp_PPG', 
+        "Quad_4_Losses", "PPG", "FGM", 'FGA', 'FG%', '3PM', '3PA', '3P%', 'FTM', 'FTA', 'FT%', 'ORB', 'RPG', 'APG', 'SPG', 'BPG', 'TOV', 'PF', 'Opp_PPG', 
          'Opp_FGM', 'Opp_FGA', 'Opp_FG%', 'Opp_3PM', 'Opp_3PA', 'Opp_3P%', 'Opp_FTM', 'Opp_FTA', 'Opp_ORB', 'Opp_RPG', 'Opp_APG', 'Opp_SPG', 'Opp_BPG', 'Opp_TOV',
          'Opp_PF']
+cols = [col for col in cols if col in testing_df_2.columns]
 rel_size = 0.1  # logo size as a fraction of axis span
 
 def axis_range_for(col, df, pad=0.05):
@@ -494,5 +496,5 @@ fig.update_layout(
 #fig.show()
 
 plot_html = fig.to_html(include_plotlyjs=True)
-with open('scatter_plot.html', 'w', encoding='utf-8') as f:
+with open(Path(__file__).with_name('scatter_plot.html'), 'w', encoding='utf-8') as f:
     f.write(plot_html)
