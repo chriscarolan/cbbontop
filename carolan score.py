@@ -53,36 +53,51 @@ net_df['Quad_3_Wins'] = net_df['Quad_3_Wins'].astype('int64')
 net_df['Quad_3_Losses'] = net_df['Quad_3_Losses'].astype('int64')
 net_df['Quad_4_Wins'] = net_df['Quad_4_Wins'].astype('int64')
 net_df['Quad_4_Losses'] = net_df['Quad_4_Losses'].astype('int64')
+net_df = net_df.rename(columns={'Conf': 'Conference'})
 
 
 ### Team Stats
-offense_url = 'https://basketball.realgm.com/ncaa/team-stats/2026/Averages/Team_Totals/0'
-offense_page = requests.get(offense_url)
-offense_soup = BeautifulSoup(offense_page.text, 'html')
+### Downloads the table from sports-reference.com
+offense_url = 'https://www.sports-reference.com/cbb/seasons/men/2026-school-stats.html'
+tables = pd.read_html(offense_url)
 
-offense_table = offense_soup.find('table')
+### reads the table 
+tables = pd.read_html(offense_url, header=1)
 
-offense_world_titles = offense_table.find_all('th')
-
-offense_world_tables_titles = [title.text for title in offense_world_titles]
-
-offense_df = pd.DataFrame(columns = offense_world_tables_titles)
-
-offense_column_data = offense_table.find_all('tr')
-
-for offense_row in offense_column_data[1:]:
-  offense_row_data = offense_row.find_all('td')
-  offense_individual_row_data = [data.text for data in offense_row_data]
-
-  length = len(offense_df)
-  offense_df.loc[length] = offense_individual_row_data
-
-offense_df = offense_df.drop(['GP'], axis=1)
-offense_df = offense_df.drop(['MPG'], axis=1)
-offense_df = offense_df.drop(['#'], axis=1)
-offense_df = offense_df.rename(columns={'Team': 'School'})
+### tells it which tabble to grab
+offense_df = tables[0]
 
 
+### tells python to ignore the first and second row, and every other row that contains
+### the word rank or school, which repeated every 20 rows. 
+### also removes the words NCAA from schools that made ncaa tournament
+offense_df = offense_df[offense_df['Rk'].astype(str) != 'Rk']
+offense_df = offense_df[offense_df['School'].notna()]
+offense_df['School'] = offense_df['School'].str.replace('NCAA', '', regex=False)
+offense_df = offense_df.reset_index(drop=True)
+
+
+### drops the columns that have unnecessary information
+offense_df = offense_df.drop(columns = ['Unnamed: 8'])
+offense_df = offense_df.drop(columns = ['W.1'])
+offense_df = offense_df.drop(columns = ['L.1'])
+offense_df = offense_df.drop(columns = ['Unnamed: 11'])
+offense_df = offense_df.drop(columns = ['W.2'])
+offense_df = offense_df.drop(columns = ['L.2'])
+offense_df = offense_df.drop(columns = ['Unnamed: 14'])
+offense_df = offense_df.drop(columns = ['W.3'])
+offense_df = offense_df.drop(columns = ['L.3'])
+offense_df = offense_df.drop(columns = ['Unnamed: 17'])
+offense_df = offense_df.drop(columns = ['Tm.'])
+offense_df = offense_df.drop(columns = ['Opp.'])
+offense_df = offense_df.drop(columns = ['Unnamed: 20'])
+
+
+### chnages the names of columns to match what my code expects
+offense_df = offense_df.rename(columns={'FG': 'FGM'})
+offense_df = offense_df.rename(columns={'3P': '3PM'})
+offense_df = offense_df.rename(columns={'FT': 'FTM'})
+offense_df["DRB"] = offense_df["TRB"] - offense_df["ORB"]
 
 
 ### Opponent Stats
@@ -188,17 +203,20 @@ net_alph['School'] = net_df['School'].replace({'A&M-Corpus Christi': 'Texas A&M-
                                                'Western Ky.': 'Western Kentucky',
                                                'Western Mich.': 'Western Michigan'
                                                })
-                      
+
+
 merged_off_def_alph['School'] = merged_off_def['School'].replace({'Alabama State': 'Alabama St.',
+                                                                  'Albany (NY)': 'Albany',
                                                              'Alcorn State': 'Alcorn St.',
                                                              'American University': 'American',
                                                              'Appalachian State': 'App St.',
                                                              'Arizona State': 'Arizona St.',
                                                                   'Army West Point': 'Army',
-                                                                  'Arkansas-Pine Bluff ': 'Arkansas Pine Bluff',
+                                                                  'Arkansas–Pine Bluff': 'Arkansas Pine Bluff',
                                                                   'Arkansas State': 'Arkansas St.',
                                                                   'Ball State': 'Ball St.',
                                                                   'Boise State': 'Boise St.',
+                                                                  'Pennsylvania': 'UPenn',
                                                                   'Brigham Young': 'BYU',
                                                                   'Cal State Bakersfield': 'CSU Bakersfield',
                                                                   'Cal State Fullerton': 'Cal St. Fullerton',
@@ -207,9 +225,12 @@ merged_off_def_alph['School'] = merged_off_def['School'].replace({'Alabama State
                                                                   'Chicago State': 'Chicago St.',
                                                                   'Cleveland State': 'Cleveland St.',
                                                                   'Colorado State': 'Colorado St.',
+                                                                  'College of Charleston': 'Charleston',
+                                                                  'Connecticut': 'UConn',
                                                                   'Coppin State': 'Coppin St.',
                                                                   'Delaware State': 'Delaware St.',
                                                                   'Detroit-Mercy': 'Detroit Mercy',
+                                                                  'FDU': 'Fairleigh Dickinson',
                                                                   'Florida Atlantic ': 'Florida Atlantic',
                                                                   'Florida State': 'Florida St.',
                                                                   'Fort Wayne': 'Purdue Fort Wayne',
@@ -218,7 +239,7 @@ merged_off_def_alph['School'] = merged_off_def['School'].replace({'Alabama State
                                                                   'Grambling State': 'Grambling',
                                                                   'Idaho State': 'Idaho St.',
                                                                   'Illinois State': 'Illinois St.',
-                                                                  'Illinois-Chicago': 'UIC',
+                                                                  'Illinois–Chicago': 'UIC',
                                                                   'Indiana State': 'Indiana St.',
                                                                   'Iowa State': 'Iowa St.',
                                                                   'Jackson State': 'Jackson St.',
@@ -228,15 +249,19 @@ merged_off_def_alph['School'] = merged_off_def['School'].replace({'Alabama State
                                                                   'Kennesaw State': 'Kennesaw St.',
                                                                   'Kent State': 'Kent St.',
                                                                   'Long Beach State': 'Long Beach St.',
-                                                                  'Louisiana-Monroe ': 'ULM',
+                                                                  'Long Island University': 'Long Island',
+                                                                  'Louisiana–Monroe': 'ULM',
+                                                                  'Louisiana State': 'LSU',
                                                                   'Loyola (IL)': 'Loyola Chicago',
                                                                   'Loyola (MD)': 'Loyola Maryland',
-                                                                  'Maryland-Eastern Shore': 'UMES',
+                                                                  'Maryland–Eastern Shore': 'UMES',
+                                                                  'Massachusetts–Lowell': 'UMass Lowell',
                                                                   'McNeese State': 'McNeese',
                                                                   'Merrimack College': 'Merrimack',
                                                                   'Michigan State': 'Michigan St.',
-                                                                  'Middle Tennessee State': 'Middle Tennessee St.',
+                                                                  'Middle Tennessee': 'Middle Tennessee St.',
                                                                   'Mississippi State': 'Mississippi St.',
+                                                                  'Mississippi': 'Ole Miss',
                                                                   'Mississippi Valley State': 'Mississippi Valley St.',
                                                                   'Missouri State': 'Missouri St.',
                                                                   'Montana State': 'Montana St.',
@@ -245,6 +270,7 @@ merged_off_def_alph['School'] = merged_off_def['School'].replace({'Alabama State
                                                                   'Murray State': 'Murray St.',
                                                                   'N.J.I.T.': 'NJIT',
                                                                   'New Mexico State': 'New Mexico St.',
+                                                                  'Nevada–Las Vegas': 'UNLV',
                                                                   'Nicholls State': 'Nicholls',
                                                                   'Norfolk State': 'Norfolk St.',
                                                                   'North Dakota State': 'North Dakota St.',
@@ -252,28 +278,33 @@ merged_off_def_alph['School'] = merged_off_def['School'].replace({'Alabama State
                                                                   'Ohio State': 'Ohio St.',
                                                                   'Oklahoma State': 'Oklahoma St.',
                                                                   'Oregon State': 'Oregon St.',
-                                                                  'Pennsylvania ': 'UPenn',
                                                                   'Penn State': 'Penn St.',
                                                                   'Portland State': 'Portland St.',
-                                                                  'Queens University': 'Queens',
-                                                                  'SIU-Edwardsville': 'SIUE',
+                                                                  'Queens (NC)': 'Queens',
+                                                                  'SIU Edwardsville': 'SIUE',
                                                                   'Southern Methodist': 'SMU',
                                                                   'Sacramento State': 'Sacramento St.',
-                                                                  'St. Francis (PA)': 'Saint Francis',
+                                                                  'Saint Francis (PA)': 'Saint Francis',
                                                                   'Sam Houston State': 'Sam Houston',
                                                                   'San Diego State': 'San Diego St.',
                                                                   'San Jose State': 'San Jose St.',
                                                                   'South Carolina State': 'South Carolina St.',
+                                                                  'Southern California': 'USC',
+                                                                  'South Carolina Upstate': 'USC Upstate',
                                                                   'South Dakota State': 'South Dakota St.',
+                                                                  "St. John's (NY)": "St. John's",
+                                                                  'Texas Christian': 'TCU',
+                                                                  'TAMUCC': 'Texas A&M-CC',
                                                                   'Tarleton State': 'Tarleton St.',
                                                                   'Tennessee State': 'Tennessee St.',
-                                                                  'Tennessee-Martin': 'UT Martin',
+                                                                  'Tennessee–Martin': 'UT Martin',
                                                                   'Texas State': 'Texas St.',
                                                                   'Texas-Arlington': 'UT Arlington',
-                                                                  'Texas-RGV': 'UTRGV',
+                                                                  'Texas–Rio Grande Valley': 'UTRGV',
                                                                   'Texas-San Antonio': 'UTSA',
                                                                   'Utah State': 'Utah St.',
                                                                   'Virginia Military': 'VMI',
+                                                                  'Virginia Commonwealth': 'VCU',
                                                                   'Washington State': 'Washington St.',
                                                                   'Weber State': 'Weber St.',
                                                                   'Wichita State': 'Wichita St.',
@@ -287,7 +318,11 @@ merged_off_def_alph['School'] = merged_off_def['School'].replace({'Alabama State
 merge_all = pd.merge(net_alph, merged_off_def_alph, on = 'School', how = 'inner')
 merge_all_alph = merge_all.sort_values(by='School')
 
-merge_all_alph['PPG'] = merge_all_alph['PPG'].astype('float64')
+merge_all_alph['G'] = merge_all_alph['G'].astype('int64')
+merge_all_alph['MP'] = merge_all_alph['MP'].astype('int64')
+merge_all_alph['SOS'] = merge_all_alph['SOS'].astype('float64')
+merge_all_alph['SRS'] = merge_all_alph['SRS'].astype('float64')
+merge_all_alph['Points'] = merge_all_alph['Points'].astype('float64')
 merge_all_alph['FGM'] = merge_all_alph['FGM'].astype('float64')
 merge_all_alph['FGA'] = merge_all_alph['FGA'].astype('float64')
 merge_all_alph['FG%'] = merge_all_alph['FG%'].astype('float64')
@@ -298,14 +333,13 @@ merge_all_alph['FTM'] = merge_all_alph['FTM'].astype('float64')
 merge_all_alph['FTA'] = merge_all_alph['FTA'].astype('float64')
 merge_all_alph['FT%'] = merge_all_alph['FT%'].astype('float64')
 merge_all_alph['ORB'] = merge_all_alph['ORB'].astype('float64')
-merge_all_alph['DRB'] = merge_all_alph['DRB'].astype('float64')
 merge_all_alph['RPG'] = merge_all_alph['RPG'].astype('float64')
 merge_all_alph['APG'] = merge_all_alph['APG'].astype('float64')
 merge_all_alph['SPG'] = merge_all_alph['SPG'].astype('float64')
 merge_all_alph['BPG'] = merge_all_alph['BPG'].astype('float64')
 merge_all_alph['TOV'] = merge_all_alph['TOV'].astype('float64')
 merge_all_alph['PF'] = merge_all_alph['PF'].astype('float64')
-merge_all_alph['Opp_PPG'] = merge_all_alph['Opp_PPG'].astype('float64')
+merge_all_alph['Opp_Points'] = merge_all_alph['Opp_Points'].astype('float64')
 merge_all_alph['Opp_FGM'] = merge_all_alph['Opp_FGM'].astype('float64')
 merge_all_alph['Opp_FGA'] = merge_all_alph['Opp_FGA'].astype('float64')
 merge_all_alph['Opp_FG%'] = merge_all_alph['Opp_FG%'].astype('float64')
@@ -316,7 +350,6 @@ merge_all_alph['Opp_FTM'] = merge_all_alph['Opp_FTM'].astype('float64')
 merge_all_alph['Opp_FTA'] = merge_all_alph['Opp_FTA'].astype('float64')
 merge_all_alph['Opp_FT%'] = merge_all_alph['Opp_FT%'].astype('float64')
 merge_all_alph['Opp_ORB'] = merge_all_alph['Opp_ORB'].astype('float64')
-merge_all_alph['Opp_DRB'] = merge_all_alph['Opp_DRB'].astype('float64')
 merge_all_alph['Opp_RPG'] = merge_all_alph['Opp_RPG'].astype('float64')
 merge_all_alph['Opp_APG'] = merge_all_alph['Opp_APG'].astype('float64')
 merge_all_alph['Opp_SPG'] = merge_all_alph['Opp_SPG'].astype('float64')
@@ -324,6 +357,42 @@ merge_all_alph['Opp_BPG'] = merge_all_alph['Opp_BPG'].astype('float64')
 merge_all_alph['Opp_TOV'] = merge_all_alph['Opp_TOV'].astype('float64')
 merge_all_alph['Opp_PF'] = merge_all_alph['Opp_PF'].astype('float64')
 
+merge_all_alph['DRB'] = merge_all_alph['RPG'] - merge_all_alph['ORB']
+merge_all_alph['Opp_DRB'] = merge_all_alph['Opp_RPG'] - merge_all_alph['Opp_ORB']
+
+merge_all_alph['Points'] = merge_all_alph['Points']/ merge_all_alph['G']
+merge_all_alph['Opp_Points'] = merge_all_alph['Opp_Points']/ merge_all_alph['G']
+merge_all_alph['FGM'] = merge_all_alph['FGM']/ merge_all_alph['G']
+merge_all_alph['FGA'] = merge_all_alph['FGA']/ merge_all_alph['G']
+merge_all_alph['3PM'] = merge_all_alph['3PM']/ merge_all_alph['G']
+merge_all_alph['3PA'] = merge_all_alph['3PA']/ merge_all_alph['G']
+merge_all_alph['FTA'] = merge_all_alph['FTA']/ merge_all_alph['G']
+merge_all_alph['FTM'] = merge_all_alph['FTM']/ merge_all_alph['G']
+merge_all_alph['ORB'] = merge_all_alph['ORB']/ merge_all_alph['G']
+merge_all_alph['DRB'] = merge_all_alph['DRB']/ merge_all_alph['G']
+merge_all_alph['RPG'] = merge_all_alph['RPG']/ merge_all_alph['G']
+merge_all_alph['APG'] = merge_all_alph['APG']/ merge_all_alph['G']
+merge_all_alph['SPG'] = merge_all_alph['SPG']/ merge_all_alph['G']
+merge_all_alph['BPG'] = merge_all_alph['BPG']/ merge_all_alph['G']
+merge_all_alph['TOV'] = merge_all_alph['TOV']/ merge_all_alph['G']
+merge_all_alph['PF'] = merge_all_alph['PF']/ merge_all_alph['G']
+merge_all_alph['Opp_FGM'] = merge_all_alph['Opp_FGM']/ merge_all_alph['G']
+merge_all_alph['Opp_FGA'] = merge_all_alph['Opp_FGA']/ merge_all_alph['G']
+merge_all_alph['Opp_3PM'] = merge_all_alph['Opp_3PM']/ merge_all_alph['G']
+merge_all_alph['Opp_3PA'] = merge_all_alph['Opp_3PA']/ merge_all_alph['G']
+merge_all_alph['Opp_FTA'] = merge_all_alph['Opp_FTA']/ merge_all_alph['G']
+merge_all_alph['Opp_FTM'] = merge_all_alph['Opp_FTM']/ merge_all_alph['G']
+merge_all_alph['Opp_ORB'] = merge_all_alph['Opp_ORB']/ merge_all_alph['G']
+merge_all_alph['Opp_DRB'] = merge_all_alph['Opp_DRB']/ merge_all_alph['G']
+merge_all_alph['Opp_RPG'] = merge_all_alph['Opp_RPG']/ merge_all_alph['G']
+merge_all_alph['Opp_APG'] = merge_all_alph['Opp_APG']/ merge_all_alph['G']
+merge_all_alph['Opp_SPG'] = merge_all_alph['Opp_SPG']/ merge_all_alph['G']
+merge_all_alph['Opp_BPG'] = merge_all_alph['Opp_BPG']/ merge_all_alph['G']
+merge_all_alph['Opp_TOV'] = merge_all_alph['Opp_TOV']/ merge_all_alph['G']
+merge_all_alph['Opp_PF'] = merge_all_alph['Opp_PF']/ merge_all_alph['G']
+
+merge_all_alph = merge_all_alph.rename(columns={'Points': 'PPG'})
+merge_all_alph = merge_all_alph.rename(columns={'Opp_Points': 'Opp_PPG'})
 
 
 
