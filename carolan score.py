@@ -2,6 +2,9 @@ from bs4 import BeautifulSoup
 import requests
 import pandas as pd
 import json
+from pathlib import Path
+
+OUTPUT_DIR = Path(__file__).resolve().parent
 
 
 ### NET Rankings Page
@@ -446,9 +449,12 @@ rankings_df = cbbontop_score[['School', 'Conference', 'Record', 'Cbbontop_Score'
 rankings_df['Cbbontop_Rank'] = rankings_df['Cbbontop_Rank'].astype(int)
 rankings_df['Cbbontop_Score'] = rankings_df['Cbbontop_Score'].round(2)
 rankings_data = rankings_df.to_dict('records')
-with open('cbbontop_rankings.json', 'w') as f:
+rankings_path = OUTPUT_DIR / 'cbbontop_rankings.json'
+with open(rankings_path, 'w') as f:
     json.dump(rankings_data, f, indent=2)
 
 #cbbontop_score[['School', 'Conference', 'Record', 'Cbbontop_Score', 'Cbbontop_Rank']]
 
-cbbontop_score.to_pickle('cbbontop_score.pkl')
+cbbontop_score.to_pickle(OUTPUT_DIR / 'cbbontop_score.pkl')
+print(f'Wrote {len(rankings_data)} teams to {rankings_path}')
+print(rankings_df.head(5).to_string(index=False))
