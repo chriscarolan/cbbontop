@@ -414,16 +414,9 @@ merge_all_alph = merge_all_alph.rename(columns={'Opp_Points': 'Opp_PPG'})
 
 
 cbbontop_score = merge_all_alph
-cbbontop_score = cbbontop_score.assign(Cbbontop_Score = cbbontop_score.Quad_1_Wins * 10
-                                             - cbbontop_score.Quad_1_Losses * 6
-                                             + cbbontop_score.Quad_2_Wins * 8
-                                             - cbbontop_score.Quad_2_Losses * 7
-                                             + cbbontop_score.Quad_3_Wins * 4
-                                             - cbbontop_score.Quad_3_Losses * 10
-                                             + cbbontop_score.Quad_4_Wins * 2
-                                             - cbbontop_score.Quad_4_Losses * 15 
-                                       + cbbontop_score.PPG *1.5
-                                       - cbbontop_score.Opp_PPG *1.25
+cbbontop_score = cbbontop_score.assign(Cbbontop_Score =  
+                                      + cbbontop_score.PPG *2
+                                       - cbbontop_score.Opp_PPG *1.95
                                        - cbbontop_score.TOV * 5
                                        + cbbontop_score.Opp_TOV * 5
                                        + cbbontop_score['3P%'] * 110
@@ -433,6 +426,17 @@ cbbontop_score = cbbontop_score.assign(Cbbontop_Score = cbbontop_score.Quad_1_Wi
                                        + cbbontop_score.APG * 1.5
                                        + cbbontop_score.BPG * 2.5
                                        - cbbontop_score.Opp_BPG * 2.5
+                                       + cbbontop_score.SPG
+                                       + cbbontop_score.Wins
+                                       - cbbontop_score.Losses 
+                                       + cbbontop_score.SOS * 4
+                                       - cbbontop_score.PF * 2
+                                       + cbbontop_score.Opp_PF
+                                       + cbbontop_score['3PA'] * .5
+                                       - cbbontop_score['Opp_3PM'] * 2
+                                       - cbbontop_score.Opp_FTA
+                                       + cbbontop_score.DRB * .5
+                                       - cbbontop_score.Opp_DRB * .5
                                        ) 
 cbbontop_score.sort_values(by=['Cbbontop_Score'], ascending=[False], inplace=True)
 cbbontop_score['Cbbontop_Rank'] = cbbontop_score['Cbbontop_Score'].rank(ascending=False)
