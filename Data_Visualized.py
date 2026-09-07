@@ -5,8 +5,9 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly as plotly
 import plotly.graph_objects as go
+from pathlib import Path
 
-cbbontop_score = pd.read_pickle('cbbontop_score.pkl')
+cbbontop_score = pd.read_pickle(Path(__file__).with_name('cbbontop_score.pkl'))
 testing_df = cbbontop_score
 Logos = {
      "Houston":"https://upload.wikimedia.org/wikipedia/commons/2/2a/University_of_Houston_Logo.svg",
