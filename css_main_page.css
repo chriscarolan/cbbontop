@@ -27,12 +27,13 @@ body {
 /* Rankings table styles */
 #rankings-display {
     max-width: 800px;
-    margin: 5px auto;
+    margin: 20px auto;
     background-color: white;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     margin-top:-375px;
+    /* used to be -175*/
 }
 
 .rankings-table {
