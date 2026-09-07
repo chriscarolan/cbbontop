@@ -59,10 +59,7 @@ net_df = net_df.rename(columns={'Conf': 'Conference'})
 ### Team Stats
 ### Downloads the table from sports-reference.com
 offense_url = 'https://www.sports-reference.com/cbb/seasons/men/2026-school-stats.html'
-tables = pd.read_html(offense_url)
-
-### reads the table 
-tables = pd.read_html(offense_url, header=1)
+tables = pd.read_html(offense_url, header=1, flavor='bs4')
 
 ### tells it which tabble to grab
 offense_df = tables[0]
@@ -73,7 +70,7 @@ offense_df = tables[0]
 ### also removes the words NCAA from schools that made ncaa tournament
 offense_df = offense_df[offense_df['Rk'].astype(str) != 'Rk']
 offense_df = offense_df[offense_df['School'].notna()]
-offense_df['School'] = offense_df['School'].str.replace('NCAA', '', regex=False)
+offense_df['School'] = offense_df['School'].str.replace('NCAA', '', regex=False).str.strip()
 offense_df = offense_df.reset_index(drop=True)
 
 
@@ -88,57 +85,73 @@ offense_df = offense_df.drop(columns = ['Unnamed: 14'])
 offense_df = offense_df.drop(columns = ['W.3'])
 offense_df = offense_df.drop(columns = ['L.3'])
 offense_df = offense_df.drop(columns = ['Unnamed: 17'])
-offense_df = offense_df.drop(columns = ['Tm.'])
-offense_df = offense_df.drop(columns = ['Opp.'])
 offense_df = offense_df.drop(columns = ['Unnamed: 20'])
+offense_df = offense_df.drop(columns = ['Rk'])
+offense_df = offense_df.drop(columns = ['W'])
+offense_df = offense_df.drop(columns = ['L'])
+offense_df = offense_df.drop(columns = ['W-L%'])
 
 
 ### chnages the names of columns to match what my code expects
 offense_df = offense_df.rename(columns={'FG': 'FGM'})
 offense_df = offense_df.rename(columns={'3P': '3PM'})
 offense_df = offense_df.rename(columns={'FT': 'FTM'})
-offense_df["DRB"] = offense_df["TRB"] - offense_df["ORB"]
+offense_df = offense_df.rename(columns={'TRB': 'RPG'})
+offense_df = offense_df.rename(columns={'AST': 'APG'})
+offense_df = offense_df.rename(columns={'STL': 'SPG'})
+offense_df = offense_df.rename(columns={'BLK': 'BPG'})
+offense_df = offense_df.rename(columns={'Tm.': 'Points'})
+offense_df = offense_df.rename(columns={'Opp.': 'Opp_Points'})
 
 
 ### Opponent Stats
-opp_url = 'https://basketball.realgm.com/ncaa/team-stats/2026/Averages/Opponent_Totals/0'
-opp_page = requests.get(opp_url)
-opp_soup = BeautifulSoup(opp_page.text, 'html')
+defense_url = 'https://www.sports-reference.com/cbb/seasons/men/2026-opponent-stats.html'
+tables = pd.read_html(defense_url, header=1, flavor='bs4')
+defense_df = tables[0]
 
-opp_table = opp_soup.find('table')
+defense_df = defense_df[defense_df['Rk'].astype(str) != 'Rk']
+defense_df = defense_df[defense_df['School'].notna()]
+defense_df['School'] = defense_df['School'].str.replace('NCAA', '', regex=False).str.strip()
+defense_df = defense_df.reset_index(drop=True)
 
-opp_world_titles = opp_table.find_all('th')
+defense_df = defense_df.drop(columns = ['Unnamed: 8'])
+defense_df = defense_df.drop(columns = ['W.1'])
+defense_df = defense_df.drop(columns = ['L.1'])
+defense_df = defense_df.drop(columns = ['Unnamed: 11'])
+defense_df = defense_df.drop(columns = ['W.2'])
+defense_df = defense_df.drop(columns = ['L.2'])
+defense_df = defense_df.drop(columns = ['Unnamed: 14'])
+defense_df = defense_df.drop(columns = ['W.3'])
+defense_df = defense_df.drop(columns = ['L.3'])
+defense_df = defense_df.drop(columns = ['Unnamed: 17'])
+defense_df = defense_df.drop(columns = ['Tm.'])
+defense_df = defense_df.drop(columns = ['Opp.'])
+defense_df = defense_df.drop(columns = ['Unnamed: 20'])
+defense_df = defense_df.drop(columns = ['Rk'])
+defense_df = defense_df.drop(columns = ['G'])
+defense_df = defense_df.drop(columns = ['W'])
+defense_df = defense_df.drop(columns = ['L'])
+defense_df = defense_df.drop(columns = ['W-L%'])
+defense_df = defense_df.drop(columns = ['SRS'])
+defense_df = defense_df.drop(columns = ['SOS'])
+defense_df = defense_df.drop(columns = ['MP'])
 
-opp_world_tables_titles = [title.text for title in opp_world_titles]
+defense_df = defense_df.rename(columns={'FG': 'FGM'})
+defense_df = defense_df.rename(columns={'3P': '3PM'})
+defense_df = defense_df.rename(columns={'FT': 'FTM'})
 
-opp_df = pd.DataFrame(columns = opp_world_tables_titles)
-
-opp_column_data = opp_table.find_all('tr')
-
-for opp_row in opp_column_data[1:]:
-  opp_row_data = opp_row.find_all('td')
-  opp_individual_row_data = [data.text for data in opp_row_data]
-
-  length = len(opp_df)
-  opp_df.loc[length] = opp_individual_row_data
-
-opp_df = opp_df.drop(['#'], axis=1)
-opp_df = opp_df.drop(['GP'], axis=1)
-opp_df = opp_df.drop(['MPG'], axis=1)
-opp_df = opp_df.rename(columns={'Team': 'School'})
-
-opp_df = opp_df.rename(columns={'PPG': 'Opp_PPG', 'FGM': 'Opp_FGM', 'FGA': 'Opp_FGA',
+defense_df = defense_df.rename(columns={'PPG': 'Opp_PPG', 'FGM': 'Opp_FGM', 'FGA': 'Opp_FGA',
                                 'FG%': 'Opp_FG%', '3PM': 'Opp_3PM', '3PA': 'Opp_3PA',
                                 '3P%': 'Opp_3P%', 'FTM': 'Opp_FTM', 'FTA': 'Opp_FTA',
                                 'FT%': 'Opp_FT%', 'ORB': 'Opp_ORB', 'DRB': 'Opp_DRB',
-                                'RPG': 'Opp_RPG', 'APG': 'Opp_APG', 'SPG': 'Opp_SPG',
-                                'BPG': 'Opp_BPG', 'TOV': 'Opp_TOV', 'PF': 'Opp_PF'})
+                                'TRB': 'Opp_RPG', 'AST': 'Opp_APG', 'STL': 'Opp_SPG',
+                                'BLK': 'Opp_BPG', 'TOV': 'Opp_TOV', 'PF': 'Opp_PF'})
 
 
 
 
 # Merge all of them
-merged_off_def = pd.merge(offense_df, opp_df, on='School', how='inner')
+merged_off_def = pd.merge(offense_df, defense_df, on='School', how='inner')
 merged_off_def_alph = merged_off_def.sort_values(by='School')
 
 net_alph = net_df.sort_values(by='School')

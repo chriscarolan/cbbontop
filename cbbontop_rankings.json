@@ -1,2550 +1,2557 @@
 [
   {
-    "School": "Houston",
-    "Conference": "Big 12",
-    "Record": "30-4",
-    "Cbbontop_Score": 382.22,
+    "School": "Michigan",
+    "Conference": "Big Ten",
+    "Record": "37-3",
+    "Cbbontop_Score": 448.06,
     "Cbbontop_Rank": 1
   },
   {
-    "School": "Auburn",
-    "Conference": "SEC",
-    "Record": "28-5",
-    "Cbbontop_Score": 372.66,
+    "School": "Arizona",
+    "Conference": "Big 12",
+    "Record": "36-3",
+    "Cbbontop_Score": 427.99,
     "Cbbontop_Rank": 2
   },
   {
     "School": "Duke",
     "Conference": "ACC",
-    "Record": "31-3",
-    "Cbbontop_Score": 364.11,
+    "Record": "35-3",
+    "Cbbontop_Score": 420.91,
     "Cbbontop_Rank": 3
-  },
-  {
-    "School": "Florida",
-    "Conference": "SEC",
-    "Record": "30-4",
-    "Cbbontop_Score": 356.71,
-    "Cbbontop_Rank": 4
-  },
-  {
-    "School": "St. John's",
-    "Conference": "Big East",
-    "Record": "30-4",
-    "Cbbontop_Score": 341.48,
-    "Cbbontop_Rank": 5
-  },
-  {
-    "School": "Michigan St.",
-    "Conference": "Big Ten",
-    "Record": "27-6",
-    "Cbbontop_Score": 320.86,
-    "Cbbontop_Rank": 6
-  },
-  {
-    "School": "Tennessee",
-    "Conference": "SEC",
-    "Record": "27-7",
-    "Cbbontop_Score": 302.06,
-    "Cbbontop_Rank": 7
-  },
-  {
-    "School": "Alabama",
-    "Conference": "SEC",
-    "Record": "25-8",
-    "Cbbontop_Score": 289.85,
-    "Cbbontop_Rank": 8
-  },
-  {
-    "School": "Maryland",
-    "Conference": "Big Ten",
-    "Record": "25-8",
-    "Cbbontop_Score": 285.53,
-    "Cbbontop_Rank": 9
-  },
-  {
-    "School": "Iowa St.",
-    "Conference": "Big 12",
-    "Record": "24-9",
-    "Cbbontop_Score": 283.68,
-    "Cbbontop_Rank": 10
-  },
-  {
-    "School": "Texas Tech",
-    "Conference": "Big 12",
-    "Record": "25-8",
-    "Cbbontop_Score": 282.8,
-    "Cbbontop_Rank": 11
-  },
-  {
-    "School": "Clemson",
-    "Conference": "ACC",
-    "Record": "27-6",
-    "Cbbontop_Score": 281.44,
-    "Cbbontop_Rank": 12
-  },
-  {
-    "School": "Louisville",
-    "Conference": "ACC",
-    "Record": "27-7",
-    "Cbbontop_Score": 277.46,
-    "Cbbontop_Rank": 13
-  },
-  {
-    "School": "Wisconsin",
-    "Conference": "Big Ten",
-    "Record": "26-9",
-    "Cbbontop_Score": 276.15,
-    "Cbbontop_Rank": 14
-  },
-  {
-    "School": "Saint Mary's",
-    "Conference": "WCC",
-    "Record": "27-5",
-    "Cbbontop_Score": 271.29,
-    "Cbbontop_Rank": 15
-  },
-  {
-    "School": "UC San Diego",
-    "Conference": "Big West",
-    "Record": "28-4",
-    "Cbbontop_Score": 264.37,
-    "Cbbontop_Rank": 16
-  },
-  {
-    "School": "Gonzaga",
-    "Conference": "WCC",
-    "Record": "25-8",
-    "Cbbontop_Score": 264.36,
-    "Cbbontop_Rank": 17
-  },
-  {
-    "School": "Memphis",
-    "Conference": "The American",
-    "Record": "29-5",
-    "Cbbontop_Score": 262.21,
-    "Cbbontop_Rank": 18
-  },
-  {
-    "School": "Oregon",
-    "Conference": "Big Ten",
-    "Record": "24-9",
-    "Cbbontop_Score": 259.19,
-    "Cbbontop_Rank": 19
-  },
-  {
-    "School": "Drake",
-    "Conference": "MVC",
-    "Record": "28-3",
-    "Cbbontop_Score": 258.0,
-    "Cbbontop_Rank": 20
-  },
-  {
-    "School": "Michigan",
-    "Conference": "Big Ten",
-    "Record": "25-9",
-    "Cbbontop_Score": 257.0,
-    "Cbbontop_Rank": 21
-  },
-  {
-    "School": "UCLA",
-    "Conference": "Big Ten",
-    "Record": "22-10",
-    "Cbbontop_Score": 256.82,
-    "Cbbontop_Rank": 22
-  },
-  {
-    "School": "BYU",
-    "Conference": "Big 12",
-    "Record": "24-9",
-    "Cbbontop_Score": 256.8,
-    "Cbbontop_Rank": 23
-  },
-  {
-    "School": "Marquette",
-    "Conference": "Big East",
-    "Record": "23-10",
-    "Cbbontop_Score": 249.18,
-    "Cbbontop_Rank": 24
-  },
-  {
-    "School": "New Mexico",
-    "Conference": "Mountain West",
-    "Record": "25-7",
-    "Cbbontop_Score": 248.74,
-    "Cbbontop_Rank": 25
-  },
-  {
-    "School": "VCU",
-    "Conference": "Atlantic 10",
-    "Record": "27-6",
-    "Cbbontop_Score": 247.31,
-    "Cbbontop_Rank": 26
   },
   {
     "School": "UConn",
     "Conference": "Big East",
-    "Record": "23-10",
-    "Cbbontop_Score": 246.16,
-    "Cbbontop_Rank": 27
+    "Record": "34-6",
+    "Cbbontop_Score": 361.61,
+    "Cbbontop_Rank": 4
   },
   {
-    "School": "Utah St.",
-    "Conference": "Mountain West",
-    "Record": "25-7",
-    "Cbbontop_Score": 244.31,
-    "Cbbontop_Rank": 28
+    "School": "Houston",
+    "Conference": "Big 12",
+    "Record": "30-7",
+    "Cbbontop_Score": 357.08,
+    "Cbbontop_Rank": 5
   },
   {
     "School": "Purdue",
     "Conference": "Big Ten",
-    "Record": "22-11",
-    "Cbbontop_Score": 243.37,
-    "Cbbontop_Rank": 29
+    "Record": "30-9",
+    "Cbbontop_Score": 337.64,
+    "Cbbontop_Rank": 6
   },
   {
-    "School": "Arizona",
+    "School": "Iowa St.",
     "Conference": "Big 12",
-    "Record": "22-12",
-    "Cbbontop_Score": 243.3,
-    "Cbbontop_Rank": 30
+    "Record": "29-8",
+    "Cbbontop_Score": 332.43,
+    "Cbbontop_Rank": 7
   },
   {
-    "School": "Texas A&M",
-    "Conference": "SEC",
-    "Record": "22-10",
-    "Cbbontop_Score": 240.74,
-    "Cbbontop_Rank": 31
+    "School": "Gonzaga",
+    "Conference": "WCC",
+    "Record": "31-4",
+    "Cbbontop_Score": 330.96,
+    "Cbbontop_Rank": 8
   },
   {
-    "School": "Ole Miss",
-    "Conference": "SEC",
-    "Record": "22-11",
-    "Cbbontop_Score": 235.83,
-    "Cbbontop_Rank": 32
-  },
-  {
-    "School": "Kentucky",
-    "Conference": "SEC",
-    "Record": "22-11",
-    "Cbbontop_Score": 229.28,
-    "Cbbontop_Rank": 33
-  },
-  {
-    "School": "Missouri",
-    "Conference": "SEC",
-    "Record": "22-11",
-    "Cbbontop_Score": 222.92,
-    "Cbbontop_Rank": 34
-  },
-  {
-    "School": "Mississippi St.",
-    "Conference": "SEC",
-    "Record": "21-12",
-    "Cbbontop_Score": 222.32,
-    "Cbbontop_Rank": 35
-  },
-  {
-    "School": "Illinois",
-    "Conference": "Big Ten",
-    "Record": "21-12",
-    "Cbbontop_Score": 217.28,
-    "Cbbontop_Rank": 36
-  },
-  {
-    "School": "Kansas",
-    "Conference": "Big 12",
-    "Record": "21-12",
-    "Cbbontop_Score": 212.14,
-    "Cbbontop_Rank": 37
-  },
-  {
-    "School": "Colorado St.",
-    "Conference": "Mountain West",
-    "Record": "25-9",
-    "Cbbontop_Score": 206.18,
-    "Cbbontop_Rank": 38
-  },
-  {
-    "School": "UC Irvine",
-    "Conference": "Big West",
-    "Record": "27-6",
-    "Cbbontop_Score": 203.65,
-    "Cbbontop_Rank": 39
-  },
-  {
-    "School": "Creighton",
+    "School": "St. John's",
     "Conference": "Big East",
-    "Record": "24-10",
-    "Cbbontop_Score": 198.7,
-    "Cbbontop_Rank": 40
+    "Record": "30-7",
+    "Cbbontop_Score": 326.11,
+    "Cbbontop_Rank": 9
   },
   {
-    "School": "Liberty",
-    "Conference": "CUSA",
-    "Record": "25-6",
-    "Cbbontop_Score": 196.78,
-    "Cbbontop_Rank": 41
+    "School": "Florida",
+    "Conference": "SEC",
+    "Record": "27-8",
+    "Cbbontop_Score": 321.89,
+    "Cbbontop_Rank": 10
   },
   {
-    "School": "SMU",
+    "School": "Virginia",
     "Conference": "ACC",
-    "Record": "23-10",
-    "Cbbontop_Score": 196.01,
-    "Cbbontop_Rank": 42
+    "Record": "30-6",
+    "Cbbontop_Score": 319.03,
+    "Cbbontop_Rank": 11
   },
   {
     "School": "Vanderbilt",
     "Conference": "SEC",
-    "Record": "20-12",
-    "Cbbontop_Score": 195.82,
-    "Cbbontop_Rank": 43
-  },
-  {
-    "School": "Xavier",
-    "Conference": "Big East",
-    "Record": "21-11",
-    "Cbbontop_Score": 192.64,
-    "Cbbontop_Rank": 44
-  },
-  {
-    "School": "McNeese",
-    "Conference": "Southland",
-    "Record": "25-6",
-    "Cbbontop_Score": 189.94,
-    "Cbbontop_Rank": 45
-  },
-  {
-    "School": "Boise St.",
-    "Conference": "Mountain West",
-    "Record": "23-10",
-    "Cbbontop_Score": 189.8,
-    "Cbbontop_Rank": 46
-  },
-  {
-    "School": "Baylor",
-    "Conference": "Big 12",
-    "Record": "18-14",
-    "Cbbontop_Score": 188.55,
-    "Cbbontop_Rank": 47
-  },
-  {
-    "School": "Akron",
-    "Conference": "MAC",
-    "Record": "26-6",
-    "Cbbontop_Score": 187.64,
-    "Cbbontop_Rank": 48
-  },
-  {
-    "School": "San Diego St.",
-    "Conference": "Mountain West",
-    "Record": "20-9",
-    "Cbbontop_Score": 187.53,
-    "Cbbontop_Rank": 49
-  },
-  {
-    "School": "San Francisco",
-    "Conference": "WCC",
-    "Record": "23-9",
-    "Cbbontop_Score": 180.04,
-    "Cbbontop_Rank": 50
-  },
-  {
-    "School": "West Virginia",
-    "Conference": "Big 12",
-    "Record": "19-13",
-    "Cbbontop_Score": 178.76,
-    "Cbbontop_Rank": 51
-  },
-  {
-    "School": "Oklahoma",
-    "Conference": "SEC",
-    "Record": "20-13",
-    "Cbbontop_Score": 178.22,
-    "Cbbontop_Rank": 52
-  },
-  {
-    "School": "High Point",
-    "Conference": "Big South",
-    "Record": "27-5",
-    "Cbbontop_Score": 178.13,
-    "Cbbontop_Rank": 53
-  },
-  {
-    "School": "Dayton",
-    "Conference": "Atlantic 10",
-    "Record": "21-10",
-    "Cbbontop_Score": 176.81,
-    "Cbbontop_Rank": 54
-  },
-  {
-    "School": "Bradley",
-    "Conference": "MVC",
-    "Record": "25-8",
-    "Cbbontop_Score": 175.23,
-    "Cbbontop_Rank": 55
-  },
-  {
-    "School": "North Texas",
-    "Conference": "The American",
-    "Record": "22-8",
-    "Cbbontop_Score": 173.84,
-    "Cbbontop_Rank": 56
+    "Record": "27-9",
+    "Cbbontop_Score": 312.81,
+    "Cbbontop_Rank": 12
   },
   {
     "School": "Arkansas",
     "Conference": "SEC",
-    "Record": "20-13",
-    "Cbbontop_Score": 173.79,
+    "Record": "28-9",
+    "Cbbontop_Score": 311.71,
+    "Cbbontop_Rank": 13
+  },
+  {
+    "School": "Nebraska",
+    "Conference": "Big Ten",
+    "Record": "28-7",
+    "Cbbontop_Score": 305.54,
+    "Cbbontop_Rank": 14
+  },
+  {
+    "School": "Illinois",
+    "Conference": "Big Ten",
+    "Record": "28-9",
+    "Cbbontop_Score": 298.59,
+    "Cbbontop_Rank": 15
+  },
+  {
+    "School": "Michigan St.",
+    "Conference": "Big Ten",
+    "Record": "27-8",
+    "Cbbontop_Score": 293.73,
+    "Cbbontop_Rank": 16
+  },
+  {
+    "School": "Utah St.",
+    "Conference": "Mountain West",
+    "Record": "28-7",
+    "Cbbontop_Score": 289.59,
+    "Cbbontop_Rank": 17
+  },
+  {
+    "School": "Alabama",
+    "Conference": "SEC",
+    "Record": "25-10",
+    "Cbbontop_Score": 276.45,
+    "Cbbontop_Rank": 18
+  },
+  {
+    "School": "Saint Mary's",
+    "Conference": "WCC",
+    "Record": "26-6",
+    "Cbbontop_Score": 256.35,
+    "Cbbontop_Rank": 19
+  },
+  {
+    "School": "Miami (FL)",
+    "Conference": "ACC",
+    "Record": "26-9",
+    "Cbbontop_Score": 255.09,
+    "Cbbontop_Rank": 20
+  },
+  {
+    "School": "Miami (OH)",
+    "Conference": "MAC",
+    "Record": "29-2",
+    "Cbbontop_Score": 253.79,
+    "Cbbontop_Rank": 21
+  },
+  {
+    "School": "Tennessee",
+    "Conference": "SEC",
+    "Record": "25-12",
+    "Cbbontop_Score": 250.73,
+    "Cbbontop_Rank": 22
+  },
+  {
+    "School": "Saint Louis",
+    "Conference": "Atlantic 10",
+    "Record": "28-6",
+    "Cbbontop_Score": 248.61,
+    "Cbbontop_Rank": 23
+  },
+  {
+    "School": "Louisville",
+    "Conference": "ACC",
+    "Record": "24-11",
+    "Cbbontop_Score": 246.19,
+    "Cbbontop_Rank": 24
+  },
+  {
+    "School": "Kansas",
+    "Conference": "Big 12",
+    "Record": "24-11",
+    "Cbbontop_Score": 243.58,
+    "Cbbontop_Rank": 25
+  },
+  {
+    "School": "BYU",
+    "Conference": "Big 12",
+    "Record": "23-12",
+    "Cbbontop_Score": 238.69,
+    "Cbbontop_Rank": 26
+  },
+  {
+    "School": "Wisconsin",
+    "Conference": "Big Ten",
+    "Record": "24-11",
+    "Cbbontop_Score": 236.68,
+    "Cbbontop_Rank": 27
+  },
+  {
+    "School": "High Point",
+    "Conference": "Big South",
+    "Record": "28-5",
+    "Cbbontop_Score": 236.03,
+    "Cbbontop_Rank": 28
+  },
+  {
+    "School": "VCU",
+    "Conference": "Atlantic 10",
+    "Record": "28-8",
+    "Cbbontop_Score": 235.67,
+    "Cbbontop_Rank": 29
+  },
+  {
+    "School": "Santa Clara",
+    "Conference": "WCC",
+    "Record": "25-9",
+    "Cbbontop_Score": 234.97,
+    "Cbbontop_Rank": 30
+  },
+  {
+    "School": "South Florida",
+    "Conference": "American",
+    "Record": "24-9",
+    "Cbbontop_Score": 232.77,
+    "Cbbontop_Rank": 31
+  },
+  {
+    "School": "North Carolina",
+    "Conference": "ACC",
+    "Record": "24-9",
+    "Cbbontop_Score": 231.13,
+    "Cbbontop_Rank": 32
+  },
+  {
+    "School": "Texas Tech",
+    "Conference": "Big 12",
+    "Record": "23-11",
+    "Cbbontop_Score": 231.04,
+    "Cbbontop_Rank": 33
+  },
+  {
+    "School": "Georgia",
+    "Conference": "SEC",
+    "Record": "22-11",
+    "Cbbontop_Score": 230.35,
+    "Cbbontop_Rank": 34
+  },
+  {
+    "School": "McNeese",
+    "Conference": "Southland",
+    "Record": "26-6",
+    "Cbbontop_Score": 226.41,
+    "Cbbontop_Rank": 35
+  },
+  {
+    "School": "Iowa",
+    "Conference": "Big Ten",
+    "Record": "24-13",
+    "Cbbontop_Score": 225.98,
+    "Cbbontop_Rank": 36
+  },
+  {
+    "School": "Villanova",
+    "Conference": "Big East",
+    "Record": "24-9",
+    "Cbbontop_Score": 225.85,
+    "Cbbontop_Rank": 37
+  },
+  {
+    "School": "Clemson",
+    "Conference": "ACC",
+    "Record": "24-11",
+    "Cbbontop_Score": 225.76,
+    "Cbbontop_Rank": 38
+  },
+  {
+    "School": "UCLA",
+    "Conference": "Big Ten",
+    "Record": "24-12",
+    "Cbbontop_Score": 224.46,
+    "Cbbontop_Rank": 39
+  },
+  {
+    "School": "TCU",
+    "Conference": "Big 12",
+    "Record": "23-12",
+    "Cbbontop_Score": 222.34,
+    "Cbbontop_Rank": 40
+  },
+  {
+    "School": "Tulsa",
+    "Conference": "American",
+    "Record": "28-8",
+    "Cbbontop_Score": 218.37,
+    "Cbbontop_Rank": 41
+  },
+  {
+    "School": "Texas A&M",
+    "Conference": "SEC",
+    "Record": "22-12",
+    "Cbbontop_Score": 215.66,
+    "Cbbontop_Rank": 42
+  },
+  {
+    "School": "Akron",
+    "Conference": "MAC",
+    "Record": "27-6",
+    "Cbbontop_Score": 210.32,
+    "Cbbontop_Rank": 43
+  },
+  {
+    "School": "New Mexico",
+    "Conference": "Mountain West",
+    "Record": "25-11",
+    "Cbbontop_Score": 207.77,
+    "Cbbontop_Rank": 44
+  },
+  {
+    "School": "Kentucky",
+    "Conference": "SEC",
+    "Record": "22-14",
+    "Cbbontop_Score": 205.85,
+    "Cbbontop_Rank": 45
+  },
+  {
+    "School": "San Diego St.",
+    "Conference": "Mountain West",
+    "Record": "21-11",
+    "Cbbontop_Score": 199.42,
+    "Cbbontop_Rank": 46
+  },
+  {
+    "School": "NC State",
+    "Conference": "ACC",
+    "Record": "20-14",
+    "Cbbontop_Score": 196.99,
+    "Cbbontop_Rank": 47
+  },
+  {
+    "School": "UCF",
+    "Conference": "Big 12",
+    "Record": "21-12",
+    "Cbbontop_Score": 192.89,
+    "Cbbontop_Rank": 48
+  },
+  {
+    "School": "Belmont",
+    "Conference": "MVC",
+    "Record": "25-6",
+    "Cbbontop_Score": 190.74,
+    "Cbbontop_Rank": 49
+  },
+  {
+    "School": "Dayton",
+    "Conference": "Atlantic 10",
+    "Record": "25-12",
+    "Cbbontop_Score": 184.66,
+    "Cbbontop_Rank": 50
+  },
+  {
+    "School": "Stephen F. Austin",
+    "Conference": "Southland",
+    "Record": "26-6",
+    "Cbbontop_Score": 183.53,
+    "Cbbontop_Rank": 51
+  },
+  {
+    "School": "Ohio St.",
+    "Conference": "Big Ten",
+    "Record": "21-13",
+    "Cbbontop_Score": 180.8,
+    "Cbbontop_Rank": 52
+  },
+  {
+    "School": "SMU",
+    "Conference": "ACC",
+    "Record": "20-14",
+    "Cbbontop_Score": 180.55,
+    "Cbbontop_Rank": 53
+  },
+  {
+    "School": "Seton Hall",
+    "Conference": "Big East",
+    "Record": "21-12",
+    "Cbbontop_Score": 178.73,
+    "Cbbontop_Rank": 54
+  },
+  {
+    "School": "Oklahoma",
+    "Conference": "SEC",
+    "Record": "21-16",
+    "Cbbontop_Score": 176.84,
+    "Cbbontop_Rank": 55
+  },
+  {
+    "School": "Auburn",
+    "Conference": "SEC",
+    "Record": "22-16",
+    "Cbbontop_Score": 176.57,
+    "Cbbontop_Rank": 56
+  },
+  {
+    "School": "Yale",
+    "Conference": "Ivy League",
+    "Record": "22-7",
+    "Cbbontop_Score": 171.14,
     "Cbbontop_Rank": 57
   },
   {
     "School": "Texas",
     "Conference": "SEC",
-    "Record": "19-15",
-    "Cbbontop_Score": 173.67,
+    "Record": "20-15",
+    "Cbbontop_Score": 170.98,
     "Cbbontop_Rank": 58
   },
   {
-    "School": "North Carolina",
-    "Conference": "ACC",
-    "Record": "22-13",
-    "Cbbontop_Score": 172.81,
+    "School": "Nevada",
+    "Conference": "Mountain West",
+    "Record": "24-13",
+    "Cbbontop_Score": 168.32,
     "Cbbontop_Rank": 59
   },
   {
-    "School": "Georgia",
-    "Conference": "SEC",
-    "Record": "20-12",
-    "Cbbontop_Score": 171.39,
+    "School": "Boise St.",
+    "Conference": "Mountain West",
+    "Record": "19-11",
+    "Cbbontop_Score": 167.97,
     "Cbbontop_Rank": 60
-  },
-  {
-    "School": "Grand Canyon",
-    "Conference": "WAC",
-    "Record": "25-7",
-    "Cbbontop_Score": 168.57,
-    "Cbbontop_Rank": 61
-  },
-  {
-    "School": "Indiana",
-    "Conference": "Big Ten",
-    "Record": "19-13",
-    "Cbbontop_Score": 168.16,
-    "Cbbontop_Rank": 62
-  },
-  {
-    "School": "Wake Forest",
-    "Conference": "ACC",
-    "Record": "21-11",
-    "Cbbontop_Score": 166.8,
-    "Cbbontop_Rank": 63
-  },
-  {
-    "School": "Cincinnati",
-    "Conference": "Big 12",
-    "Record": "18-15",
-    "Cbbontop_Score": 165.81,
-    "Cbbontop_Rank": 64
-  },
-  {
-    "School": "George Mason",
-    "Conference": "Atlantic 10",
-    "Record": "25-8",
-    "Cbbontop_Score": 165.5,
-    "Cbbontop_Rank": 65
-  },
-  {
-    "School": "Yale",
-    "Conference": "Ivy League",
-    "Record": "21-7",
-    "Cbbontop_Score": 158.07,
-    "Cbbontop_Rank": 66
-  },
-  {
-    "School": "Ohio St.",
-    "Conference": "Big Ten",
-    "Record": "17-15",
-    "Cbbontop_Score": 154.9,
-    "Cbbontop_Rank": 67
-  },
-  {
-    "School": "Northwestern",
-    "Conference": "Big Ten",
-    "Record": "17-16",
-    "Cbbontop_Score": 153.16,
-    "Cbbontop_Rank": 68
-  },
-  {
-    "School": "Samford",
-    "Conference": "SoCon",
-    "Record": "20-10",
-    "Cbbontop_Score": 147.86,
-    "Cbbontop_Rank": 69
-  },
-  {
-    "School": "Santa Clara",
-    "Conference": "WCC",
-    "Record": "20-12",
-    "Cbbontop_Score": 147.3,
-    "Cbbontop_Rank": 70
-  },
-  {
-    "School": "Nebraska",
-    "Conference": "Big Ten",
-    "Record": "17-14",
-    "Cbbontop_Score": 146.61,
-    "Cbbontop_Rank": 71
-  },
-  {
-    "School": "Robert Morris",
-    "Conference": "Horizon",
-    "Record": "25-8",
-    "Cbbontop_Score": 146.24,
-    "Cbbontop_Rank": 72
-  },
-  {
-    "School": "Iowa",
-    "Conference": "Big Ten",
-    "Record": "17-16",
-    "Cbbontop_Score": 145.15,
-    "Cbbontop_Rank": 73
-  },
-  {
-    "School": "Utah Valley",
-    "Conference": "WAC",
-    "Record": "23-8",
-    "Cbbontop_Score": 143.7,
-    "Cbbontop_Rank": 74
   },
   {
     "School": "Stanford",
     "Conference": "ACC",
     "Record": "20-13",
-    "Cbbontop_Score": 143.17,
-    "Cbbontop_Rank": 75
+    "Cbbontop_Score": 164.64,
+    "Cbbontop_Rank": 61
   },
   {
-    "School": "Chattanooga",
-    "Conference": "SoCon",
-    "Record": "22-9",
-    "Cbbontop_Score": 142.72,
-    "Cbbontop_Rank": 76
+    "School": "Virginia Tech",
+    "Conference": "ACC",
+    "Record": "19-13",
+    "Cbbontop_Score": 164.02,
+    "Cbbontop_Rank": 62
+  },
+  {
+    "School": "West Virginia",
+    "Conference": "Big 12",
+    "Record": "21-14",
+    "Cbbontop_Score": 161.39,
+    "Cbbontop_Rank": 63
+  },
+  {
+    "School": "Missouri",
+    "Conference": "SEC",
+    "Record": "20-13",
+    "Cbbontop_Score": 160.41,
+    "Cbbontop_Rank": 64
+  },
+  {
+    "School": "California",
+    "Conference": "ACC",
+    "Record": "21-12",
+    "Cbbontop_Score": 159.22,
+    "Cbbontop_Rank": 65
+  },
+  {
+    "School": "Wichita St.",
+    "Conference": "American",
+    "Record": "23-12",
+    "Cbbontop_Score": 154.07,
+    "Cbbontop_Rank": 66
+  },
+  {
+    "School": "Liberty",
+    "Conference": "CUSA",
+    "Record": "23-8",
+    "Cbbontop_Score": 152.46,
+    "Cbbontop_Rank": 67
   },
   {
     "School": "UNC Wilmington",
     "Conference": "CAA",
     "Record": "25-7",
-    "Cbbontop_Score": 142.08,
+    "Cbbontop_Score": 150.1,
+    "Cbbontop_Rank": 68
+  },
+  {
+    "School": "North Dakota St.",
+    "Conference": "Summit League",
+    "Record": "24-8",
+    "Cbbontop_Score": 147.97,
+    "Cbbontop_Rank": 69
+  },
+  {
+    "School": "Oklahoma St.",
+    "Conference": "Big 12",
+    "Record": "20-15",
+    "Cbbontop_Score": 147.45,
+    "Cbbontop_Rank": 70
+  },
+  {
+    "School": "Utah Valley",
+    "Conference": "WAC",
+    "Record": "22-9",
+    "Cbbontop_Score": 145.59,
+    "Cbbontop_Rank": 71
+  },
+  {
+    "School": "Indiana",
+    "Conference": "Big Ten",
+    "Record": "18-14",
+    "Cbbontop_Score": 142.94,
+    "Cbbontop_Rank": 72
+  },
+  {
+    "School": "Florida St.",
+    "Conference": "ACC",
+    "Record": "18-15",
+    "Cbbontop_Score": 141.55,
+    "Cbbontop_Rank": 73
+  },
+  {
+    "School": "Cincinnati",
+    "Conference": "Big 12",
+    "Record": "18-15",
+    "Cbbontop_Score": 141.35,
+    "Cbbontop_Rank": 74
+  },
+  {
+    "School": "Grand Canyon",
+    "Conference": "Mountain West",
+    "Record": "20-12",
+    "Cbbontop_Score": 140.9,
+    "Cbbontop_Rank": 75
+  },
+  {
+    "School": "USC",
+    "Conference": "Big Ten",
+    "Record": "17-14",
+    "Cbbontop_Score": 139.09,
+    "Cbbontop_Rank": 76
+  },
+  {
+    "School": "California Baptist",
+    "Conference": "WAC",
+    "Record": "25-9",
+    "Cbbontop_Score": 138.33,
     "Cbbontop_Rank": 77
   },
   {
-    "School": "Villanova",
-    "Conference": "Big East",
-    "Record": "19-14",
-    "Cbbontop_Score": 138.3,
+    "School": "Baylor",
+    "Conference": "Big 12",
+    "Record": "16-17",
+    "Cbbontop_Score": 135.01,
     "Cbbontop_Rank": 78
   },
   {
-    "School": "Arkansas St.",
-    "Conference": "Sun Belt",
-    "Record": "23-10",
-    "Cbbontop_Score": 136.57,
+    "School": "Kent St.",
+    "Conference": "MAC",
+    "Record": "22-10",
+    "Cbbontop_Score": 130.85,
     "Cbbontop_Rank": 79
   },
   {
-    "School": "Furman",
-    "Conference": "SoCon",
-    "Record": "22-9",
-    "Cbbontop_Score": 135.88,
+    "School": "George Mason",
+    "Conference": "Atlantic 10",
+    "Record": "22-10",
+    "Cbbontop_Score": 130.03,
     "Cbbontop_Rank": 80
   },
   {
-    "School": "St. Thomas",
-    "Conference": "Summit League",
-    "Record": "21-10",
-    "Cbbontop_Score": 133.92,
+    "School": "Navy",
+    "Conference": "Patriot",
+    "Record": "24-8",
+    "Cbbontop_Score": 129.33,
     "Cbbontop_Rank": 81
   },
   {
-    "School": "Lipscomb",
-    "Conference": "ASUN",
-    "Record": "23-9",
-    "Cbbontop_Score": 133.29,
+    "School": "Northern Iowa",
+    "Conference": "MVC",
+    "Record": "22-13",
+    "Cbbontop_Score": 129.28,
     "Cbbontop_Rank": 82
   },
   {
-    "School": "CSUN",
-    "Conference": "Big West",
-    "Record": "20-10",
-    "Cbbontop_Score": 132.2,
+    "School": "Colorado St.",
+    "Conference": "Mountain West",
+    "Record": "20-13",
+    "Cbbontop_Score": 128.98,
     "Cbbontop_Rank": 83
   },
   {
-    "School": "Miami (OH)",
-    "Conference": "MAC",
-    "Record": "23-9",
-    "Cbbontop_Score": 131.79,
+    "School": "Arizona St.",
+    "Conference": "Big 12",
+    "Record": "17-16",
+    "Cbbontop_Score": 127.71,
     "Cbbontop_Rank": 84
   },
   {
-    "School": "St. Bonaventure",
-    "Conference": "Atlantic 10",
-    "Record": "21-11",
-    "Cbbontop_Score": 130.29,
+    "School": "Illinois St.",
+    "Conference": "MVC",
+    "Record": "22-13",
+    "Cbbontop_Score": 127.23,
     "Cbbontop_Rank": 85
   },
   {
-    "School": "Pittsburgh",
-    "Conference": "ACC",
-    "Record": "17-15",
-    "Cbbontop_Score": 128.06,
+    "School": "Bradley",
+    "Conference": "MVC",
+    "Record": "20-13",
+    "Cbbontop_Score": 122.5,
     "Cbbontop_Rank": 86
   },
   {
-    "School": "UAB",
-    "Conference": "The American",
-    "Record": "21-12",
-    "Cbbontop_Score": 126.38,
+    "School": "Austin Peay",
+    "Conference": "ASUN",
+    "Record": "20-9",
+    "Cbbontop_Score": 121.77,
     "Cbbontop_Rank": 87
   },
   {
-    "School": "UCF",
+    "School": "Hawaii",
+    "Conference": "Big West",
+    "Record": "22-9",
+    "Cbbontop_Score": 118.58,
+    "Cbbontop_Rank": 88
+  },
+  {
+    "School": "Colorado",
     "Conference": "Big 12",
     "Record": "17-16",
-    "Cbbontop_Score": 126.31,
-    "Cbbontop_Rank": 88
+    "Cbbontop_Score": 118.23,
+    "Cbbontop_Rank": 89
+  },
+  {
+    "School": "Wake Forest",
+    "Conference": "ACC",
+    "Record": "18-17",
+    "Cbbontop_Score": 117.97,
+    "Cbbontop_Rank": 90
+  },
+  {
+    "School": "UAB",
+    "Conference": "American",
+    "Record": "19-12",
+    "Cbbontop_Score": 117.82,
+    "Cbbontop_Rank": 91
   },
   {
     "School": "Saint Joseph's",
     "Conference": "Atlantic 10",
     "Record": "22-12",
-    "Cbbontop_Score": 126.05,
-    "Cbbontop_Rank": 89
-  },
-  {
-    "School": "Loyola Chicago",
-    "Conference": "Atlantic 10",
-    "Record": "21-11",
-    "Cbbontop_Score": 124.54,
-    "Cbbontop_Rank": 90
-  },
-  {
-    "School": "Penn St.",
-    "Conference": "Big Ten",
-    "Record": "16-15",
-    "Cbbontop_Score": 124.53,
-    "Cbbontop_Rank": 91
-  },
-  {
-    "School": "Montana",
-    "Conference": "Big Sky",
-    "Record": "22-9",
-    "Cbbontop_Score": 123.65,
+    "Cbbontop_Score": 117.13,
     "Cbbontop_Rank": 92
   },
   {
-    "School": "Belmont",
+    "School": "Murray St.",
     "Conference": "MVC",
-    "Record": "21-11",
-    "Cbbontop_Score": 121.85,
+    "Record": "20-13",
+    "Cbbontop_Score": 115.45,
     "Cbbontop_Rank": 93
   },
   {
-    "School": "TCU",
-    "Conference": "Big 12",
-    "Record": "16-16",
-    "Cbbontop_Score": 121.7,
+    "School": "Hofstra",
+    "Conference": "CAA",
+    "Record": "22-11",
+    "Cbbontop_Score": 111.4,
     "Cbbontop_Rank": 94
   },
   {
-    "School": "Middle Tennessee St.",
-    "Conference": "CUSA",
-    "Record": "20-11",
-    "Cbbontop_Score": 121.18,
+    "School": "Washington",
+    "Conference": "Big Ten",
+    "Record": "16-17",
+    "Cbbontop_Score": 107.07,
     "Cbbontop_Rank": 95
-  },
-  {
-    "School": "Oregon St.",
-    "Conference": "WCC",
-    "Record": "19-12",
-    "Cbbontop_Score": 119.13,
-    "Cbbontop_Rank": 96
-  },
-  {
-    "School": "Northern Colorado",
-    "Conference": "Big Sky",
-    "Record": "22-9",
-    "Cbbontop_Score": 119.02,
-    "Cbbontop_Rank": 97
-  },
-  {
-    "School": "North Alabama",
-    "Conference": "ASUN",
-    "Record": "22-10",
-    "Cbbontop_Score": 118.74,
-    "Cbbontop_Rank": 98
-  },
-  {
-    "School": "Charleston",
-    "Conference": "CAA",
-    "Record": "23-9",
-    "Cbbontop_Score": 117.38,
-    "Cbbontop_Rank": 99
-  },
-  {
-    "School": "Central Connecticut St.",
-    "Conference": "NEC",
-    "Record": "23-7",
-    "Cbbontop_Score": 115.18,
-    "Cbbontop_Rank": 100
-  },
-  {
-    "School": "Kansas St.",
-    "Conference": "Big 12",
-    "Record": "16-17",
-    "Cbbontop_Score": 112.52,
-    "Cbbontop_Rank": 101
-  },
-  {
-    "School": "Troy",
-    "Conference": "Sun Belt",
-    "Record": "21-10",
-    "Cbbontop_Score": 111.55,
-    "Cbbontop_Rank": 102
-  },
-  {
-    "School": "USC",
-    "Conference": "Big Ten",
-    "Record": "16-17",
-    "Cbbontop_Score": 111.28,
-    "Cbbontop_Rank": 103
-  },
-  {
-    "School": "Rutgers",
-    "Conference": "Big Ten",
-    "Record": "15-17",
-    "Cbbontop_Score": 107.09,
-    "Cbbontop_Rank": 104
-  },
-  {
-    "School": "Northern Iowa",
-    "Conference": "MVC",
-    "Record": "19-12",
-    "Cbbontop_Score": 106.53,
-    "Cbbontop_Rank": 105
-  },
-  {
-    "School": "Minnesota",
-    "Conference": "Big Ten",
-    "Record": "15-17",
-    "Cbbontop_Score": 104.8,
-    "Cbbontop_Rank": 106
-  },
-  {
-    "School": "Georgetown",
-    "Conference": "Big East",
-    "Record": "17-15",
-    "Cbbontop_Score": 104.78,
-    "Cbbontop_Rank": 107
-  },
-  {
-    "School": "Utah",
-    "Conference": "Big 12",
-    "Record": "16-16",
-    "Cbbontop_Score": 103.7,
-    "Cbbontop_Rank": 108
-  },
-  {
-    "School": "UC Riverside",
-    "Conference": "Big West",
-    "Record": "19-12",
-    "Cbbontop_Score": 102.72,
-    "Cbbontop_Rank": 109
-  },
-  {
-    "School": "Towson",
-    "Conference": "CAA",
-    "Record": "21-11",
-    "Cbbontop_Score": 100.1,
-    "Cbbontop_Rank": 110
-  },
-  {
-    "School": "Princeton",
-    "Conference": "Ivy League",
-    "Record": "17-11",
-    "Cbbontop_Score": 98.72,
-    "Cbbontop_Rank": 111
-  },
-  {
-    "School": "Nevada",
-    "Conference": "Mountain West",
-    "Record": "17-16",
-    "Cbbontop_Score": 97.06,
-    "Cbbontop_Rank": 112
-  },
-  {
-    "School": "UNC Asheville",
-    "Conference": "Big South",
-    "Record": "17-11",
-    "Cbbontop_Score": 96.23,
-    "Cbbontop_Rank": 113
-  },
-  {
-    "School": "Jacksonville St.",
-    "Conference": "CUSA",
-    "Record": "19-12",
-    "Cbbontop_Score": 96.11,
-    "Cbbontop_Rank": 114
-  },
-  {
-    "School": "UNLV",
-    "Conference": "Mountain West",
-    "Record": "18-15",
-    "Cbbontop_Score": 94.83,
-    "Cbbontop_Rank": 115
-  },
-  {
-    "School": "Norfolk St.",
-    "Conference": "MEAC",
-    "Record": "21-10",
-    "Cbbontop_Score": 94.56,
-    "Cbbontop_Rank": 116
-  },
-  {
-    "School": "Cleveland St.",
-    "Conference": "Horizon",
-    "Record": "18-12",
-    "Cbbontop_Score": 94.36,
-    "Cbbontop_Rank": 117
-  },
-  {
-    "School": "Oklahoma St.",
-    "Conference": "Big 12",
-    "Record": "15-17",
-    "Cbbontop_Score": 91.26,
-    "Cbbontop_Rank": 118
-  },
-  {
-    "School": "Kent St.",
-    "Conference": "MAC",
-    "Record": "20-11",
-    "Cbbontop_Score": 90.94,
-    "Cbbontop_Rank": 119
-  },
-  {
-    "School": "Milwaukee",
-    "Conference": "Horizon",
-    "Record": "19-11",
-    "Cbbontop_Score": 90.41,
-    "Cbbontop_Rank": 120
-  },
-  {
-    "School": "Florida St.",
-    "Conference": "ACC",
-    "Record": "17-15",
-    "Cbbontop_Score": 89.92,
-    "Cbbontop_Rank": 121
-  },
-  {
-    "School": "Washington St.",
-    "Conference": "WCC",
-    "Record": "19-14",
-    "Cbbontop_Score": 89.74,
-    "Cbbontop_Rank": 122
   },
   {
     "School": "Winthrop",
     "Conference": "Big South",
     "Record": "20-11",
-    "Cbbontop_Score": 88.42,
-    "Cbbontop_Rank": 123
+    "Cbbontop_Score": 106.41,
+    "Cbbontop_Rank": 96
   },
   {
-    "School": "South Alabama",
-    "Conference": "Sun Belt",
-    "Record": "19-11",
-    "Cbbontop_Score": 87.76,
-    "Cbbontop_Rank": 124
-  },
-  {
-    "School": "Bryant",
-    "Conference": "America East",
-    "Record": "21-11",
-    "Cbbontop_Score": 86.18,
-    "Cbbontop_Rank": 125
-  },
-  {
-    "School": "UNC Greensboro",
-    "Conference": "SoCon",
-    "Record": "17-12",
-    "Cbbontop_Score": 86.05,
-    "Cbbontop_Rank": 126
-  },
-  {
-    "School": "Cornell",
-    "Conference": "Ivy League",
-    "Record": "16-11",
-    "Cbbontop_Score": 86.01,
-    "Cbbontop_Rank": 127
-  },
-  {
-    "School": "Louisiana Tech",
+    "School": "Sam Houston",
     "Conference": "CUSA",
-    "Record": "17-12",
-    "Cbbontop_Score": 84.55,
-    "Cbbontop_Rank": 128
+    "Record": "19-12",
+    "Cbbontop_Score": 101.8,
+    "Cbbontop_Rank": 97
   },
   {
-    "School": "George Washington",
-    "Conference": "Atlantic 10",
-    "Record": "20-12",
-    "Cbbontop_Score": 83.67,
-    "Cbbontop_Rank": 129
-  },
-  {
-    "School": "James Madison",
-    "Conference": "Sun Belt",
-    "Record": "18-12",
-    "Cbbontop_Score": 81.83,
-    "Cbbontop_Rank": 130
-  },
-  {
-    "School": "North Dakota St.",
+    "School": "St. Thomas",
     "Conference": "Summit League",
-    "Record": "18-11",
-    "Cbbontop_Score": 80.3,
-    "Cbbontop_Rank": 131
+    "Record": "21-10",
+    "Cbbontop_Score": 100.51,
+    "Cbbontop_Rank": 98
   },
   {
-    "School": "Georgia Tech",
-    "Conference": "ACC",
-    "Record": "17-16",
-    "Cbbontop_Score": 79.33,
-    "Cbbontop_Rank": 132
-  },
-  {
-    "School": "UTEP",
-    "Conference": "CUSA",
-    "Record": "15-15",
-    "Cbbontop_Score": 77.18,
-    "Cbbontop_Rank": 133
-  },
-  {
-    "School": "Purdue Fort Wayne",
-    "Conference": "Horizon",
-    "Record": "17-13",
-    "Cbbontop_Score": 76.76,
-    "Cbbontop_Rank": 134
-  },
-  {
-    "School": "Arizona St.",
-    "Conference": "Big 12",
-    "Record": "13-19",
-    "Cbbontop_Score": 76.56,
-    "Cbbontop_Rank": 135
-  },
-  {
-    "School": "UC Santa Barbara",
+    "School": "UC Irvine",
     "Conference": "Big West",
-    "Record": "19-13",
-    "Cbbontop_Score": 73.46,
-    "Cbbontop_Rank": 136
-  },
-  {
-    "School": "Omaha",
-    "Conference": "Summit League",
-    "Record": "20-12",
-    "Cbbontop_Score": 70.33,
-    "Cbbontop_Rank": 137
-  },
-  {
-    "School": "Washington",
-    "Conference": "Big Ten",
-    "Record": "12-18",
-    "Cbbontop_Score": 70.26,
-    "Cbbontop_Rank": 138
-  },
-  {
-    "School": "South Dakota St.",
-    "Conference": "Summit League",
-    "Record": "17-12",
-    "Cbbontop_Score": 70.25,
-    "Cbbontop_Rank": 139
-  },
-  {
-    "School": "Southern",
-    "Conference": "SWAC",
-    "Record": "17-12",
-    "Cbbontop_Score": 70.07,
-    "Cbbontop_Rank": 140
-  },
-  {
-    "School": "South Carolina St.",
-    "Conference": "MEAC",
-    "Record": "17-13",
-    "Cbbontop_Score": 69.15,
-    "Cbbontop_Rank": 141
-  },
-  {
-    "School": "Saint Louis",
-    "Conference": "Atlantic 10",
-    "Record": "17-14",
-    "Cbbontop_Score": 68.74,
-    "Cbbontop_Rank": 142
-  },
-  {
-    "School": "Illinois St.",
-    "Conference": "MVC",
-    "Record": "18-14",
-    "Cbbontop_Score": 68.73,
-    "Cbbontop_Rank": 143
-  },
-  {
-    "School": "Kennesaw St.",
-    "Conference": "CUSA",
-    "Record": "16-14",
-    "Cbbontop_Score": 68.27,
-    "Cbbontop_Rank": 144
-  },
-  {
-    "School": "East Tennessee State",
-    "Conference": "SoCon",
-    "Record": "17-13",
-    "Cbbontop_Score": 66.83,
-    "Cbbontop_Rank": 145
-  },
-  {
-    "School": "Virginia",
-    "Conference": "ACC",
-    "Record": "15-17",
-    "Cbbontop_Score": 66.57,
-    "Cbbontop_Rank": 146
-  },
-  {
-    "School": "Radford",
-    "Conference": "Big South",
-    "Record": "18-13",
-    "Cbbontop_Score": 65.04,
-    "Cbbontop_Rank": 147
-  },
-  {
-    "School": "LSU",
-    "Conference": "SEC",
-    "Record": "14-18",
-    "Cbbontop_Score": 64.8,
-    "Cbbontop_Rank": 148
-  },
-  {
-    "School": "Rhode Island",
-    "Conference": "Atlantic 10",
-    "Record": "17-13",
-    "Cbbontop_Score": 64.28,
-    "Cbbontop_Rank": 149
-  },
-  {
-    "School": "Wofford",
-    "Conference": "SoCon",
-    "Record": "17-15",
-    "Cbbontop_Score": 63.08,
-    "Cbbontop_Rank": 150
-  },
-  {
-    "School": "Colorado",
-    "Conference": "Big 12",
-    "Record": "14-20",
-    "Cbbontop_Score": 61.89,
-    "Cbbontop_Rank": 151
-  },
-  {
-    "School": "Nicholls",
-    "Conference": "Southland",
-    "Record": "17-13",
-    "Cbbontop_Score": 61.18,
-    "Cbbontop_Rank": 152
-  },
-  {
-    "School": "East Carolina",
-    "Conference": "The American",
-    "Record": "17-14",
-    "Cbbontop_Score": 61.11,
-    "Cbbontop_Rank": 153
-  },
-  {
-    "School": "Tulane",
-    "Conference": "The American",
-    "Record": "17-14",
-    "Cbbontop_Score": 59.44,
-    "Cbbontop_Rank": 154
-  },
-  {
-    "School": "Florida Atlantic",
-    "Conference": "The American",
-    "Record": "17-15",
-    "Cbbontop_Score": 58.9,
-    "Cbbontop_Rank": 155
-  },
-  {
-    "School": "Eastern Kentucky",
-    "Conference": "ASUN",
-    "Record": "16-14",
-    "Cbbontop_Score": 57.38,
-    "Cbbontop_Rank": 156
-  },
-  {
-    "School": "UIC",
-    "Conference": "MVC",
-    "Record": "15-14",
-    "Cbbontop_Score": 55.94,
-    "Cbbontop_Rank": 157
-  },
-  {
-    "School": "Youngstown St.",
-    "Conference": "Horizon",
-    "Record": "19-13",
-    "Cbbontop_Score": 55.1,
-    "Cbbontop_Rank": 158
-  },
-  {
-    "School": "Jacksonville",
-    "Conference": "ASUN",
-    "Record": "17-13",
-    "Cbbontop_Score": 54.61,
-    "Cbbontop_Rank": 159
-  },
-  {
-    "School": "Wichita St.",
-    "Conference": "The American",
-    "Record": "18-14",
-    "Cbbontop_Score": 54.22,
-    "Cbbontop_Rank": 160
-  },
-  {
-    "School": "Marshall",
-    "Conference": "Sun Belt",
-    "Record": "18-13",
-    "Cbbontop_Score": 54.22,
-    "Cbbontop_Rank": 161
-  },
-  {
-    "School": "Loyola Marymount",
-    "Conference": "WCC",
-    "Record": "16-15",
-    "Cbbontop_Score": 53.99,
-    "Cbbontop_Rank": 162
-  },
-  {
-    "School": "Notre Dame",
-    "Conference": "ACC",
-    "Record": "15-18",
-    "Cbbontop_Score": 52.12,
-    "Cbbontop_Rank": 163
-  },
-  {
-    "School": "Southeast Missouri State",
-    "Conference": "OVC",
-    "Record": "18-12",
-    "Cbbontop_Score": 51.43,
-    "Cbbontop_Rank": 164
-  },
-  {
-    "School": "Lamar",
-    "Conference": "Southland",
-    "Record": "17-13",
-    "Cbbontop_Score": 51.2,
-    "Cbbontop_Rank": 165
-  },
-  {
-    "School": "SIUE",
-    "Conference": "OVC",
-    "Record": "19-11",
-    "Cbbontop_Score": 49.35,
-    "Cbbontop_Rank": 166
-  },
-  {
-    "School": "Davidson",
-    "Conference": "Atlantic 10",
-    "Record": "16-16",
-    "Cbbontop_Score": 49.16,
-    "Cbbontop_Rank": 167
+    "Record": "21-12",
+    "Cbbontop_Score": 99.64,
+    "Cbbontop_Rank": 99
   },
   {
     "School": "Butler",
     "Conference": "Big East",
-    "Record": "14-19",
-    "Cbbontop_Score": 47.2,
-    "Cbbontop_Rank": 168
+    "Record": "16-16",
+    "Cbbontop_Score": 99.26,
+    "Cbbontop_Rank": 100
   },
   {
-    "School": "NC State",
-    "Conference": "ACC",
-    "Record": "12-19",
-    "Cbbontop_Score": 46.27,
-    "Cbbontop_Rank": 169
+    "School": "UMBC",
+    "Conference": "America East",
+    "Record": "22-9",
+    "Cbbontop_Score": 98.63,
+    "Cbbontop_Rank": 101
   },
   {
-    "School": "New Mexico St.",
-    "Conference": "CUSA",
-    "Record": "14-15",
-    "Cbbontop_Score": 43.61,
-    "Cbbontop_Rank": 170
+    "School": "Tennessee St.",
+    "Conference": "OVC",
+    "Record": "20-10",
+    "Cbbontop_Score": 95.59,
+    "Cbbontop_Rank": 102
   },
   {
-    "School": "Queens",
-    "Conference": "ASUN",
-    "Record": "17-14",
-    "Cbbontop_Score": 42.6,
-    "Cbbontop_Rank": 171
-  },
-  {
-    "School": "California Baptist",
-    "Conference": "WAC",
+    "School": "Wyoming",
+    "Conference": "Mountain West",
     "Record": "17-15",
-    "Cbbontop_Score": 42.34,
-    "Cbbontop_Rank": 172
+    "Cbbontop_Score": 95.22,
+    "Cbbontop_Rank": 103
+  },
+  {
+    "School": "UNLV",
+    "Conference": "Mountain West",
+    "Record": "17-17",
+    "Cbbontop_Score": 94.78,
+    "Cbbontop_Rank": 104
+  },
+  {
+    "School": "Northwestern",
+    "Conference": "Big Ten",
+    "Record": "15-19",
+    "Cbbontop_Score": 93.07,
+    "Cbbontop_Rank": 105
+  },
+  {
+    "School": "Davidson",
+    "Conference": "Atlantic 10",
+    "Record": "18-14",
+    "Cbbontop_Score": 93.0,
+    "Cbbontop_Rank": 106
+  },
+  {
+    "School": "Seattle",
+    "Conference": "WCC",
+    "Record": "19-14",
+    "Cbbontop_Score": 92.33,
+    "Cbbontop_Rank": 107
+  },
+  {
+    "School": "Wright St.",
+    "Conference": "Horizon",
+    "Record": "21-12",
+    "Cbbontop_Score": 92.07,
+    "Cbbontop_Rank": 108
   },
   {
     "School": "Portland St.",
     "Conference": "Big Sky",
-    "Record": "16-13",
-    "Cbbontop_Score": 42.22,
-    "Cbbontop_Rank": 173
+    "Record": "17-11",
+    "Cbbontop_Score": 91.28,
+    "Cbbontop_Rank": 109
   },
   {
-    "School": "California",
-    "Conference": "ACC",
-    "Record": "14-19",
-    "Cbbontop_Score": 40.85,
-    "Cbbontop_Rank": 174
+    "School": "Troy",
+    "Conference": "Sun Belt",
+    "Record": "20-12",
+    "Cbbontop_Score": 88.68,
+    "Cbbontop_Rank": 110
   },
   {
-    "School": "South Dakota",
-    "Conference": "Summit League",
-    "Record": "16-14",
-    "Cbbontop_Score": 40.39,
-    "Cbbontop_Rank": 175
+    "School": "Howard",
+    "Conference": "MEAC",
+    "Record": "20-11",
+    "Cbbontop_Score": 88.07,
+    "Cbbontop_Rank": 111
+  },
+  {
+    "School": "Xavier",
+    "Conference": "Big East",
+    "Record": "15-18",
+    "Cbbontop_Score": 87.04,
+    "Cbbontop_Rank": 112
+  },
+  {
+    "School": "Ole Miss",
+    "Conference": "SEC",
+    "Record": "15-20",
+    "Cbbontop_Score": 87.01,
+    "Cbbontop_Rank": 113
+  },
+  {
+    "School": "Georgetown",
+    "Conference": "Big East",
+    "Record": "16-18",
+    "Cbbontop_Score": 85.84,
+    "Cbbontop_Rank": 114
   },
   {
     "School": "DePaul",
     "Conference": "Big East",
-    "Record": "14-19",
-    "Cbbontop_Score": 40.09,
-    "Cbbontop_Rank": 176
+    "Record": "16-16",
+    "Cbbontop_Score": 85.73,
+    "Cbbontop_Rank": 115
+  },
+  {
+    "School": "UPenn",
+    "Conference": "Ivy League",
+    "Record": "17-12",
+    "Cbbontop_Score": 85.7,
+    "Cbbontop_Rank": 116
+  },
+  {
+    "School": "UC San Diego",
+    "Conference": "Big West",
+    "Record": "21-11",
+    "Cbbontop_Score": 84.71,
+    "Cbbontop_Rank": 117
+  },
+  {
+    "School": "Charleston",
+    "Conference": "CAA",
+    "Record": "20-11",
+    "Cbbontop_Score": 83.26,
+    "Cbbontop_Rank": 118
+  },
+  {
+    "School": "Merrimack",
+    "Conference": "MAAC",
+    "Record": "23-11",
+    "Cbbontop_Score": 83.17,
+    "Cbbontop_Rank": 119
+  },
+  {
+    "School": "George Washington",
+    "Conference": "Atlantic 10",
+    "Record": "18-16",
+    "Cbbontop_Score": 82.59,
+    "Cbbontop_Rank": 120
+  },
+  {
+    "School": "Syracuse",
+    "Conference": "ACC",
+    "Record": "15-17",
+    "Cbbontop_Score": 81.81,
+    "Cbbontop_Rank": 121
+  },
+  {
+    "School": "William & Mary",
+    "Conference": "CAA",
+    "Record": "18-12",
+    "Cbbontop_Score": 81.5,
+    "Cbbontop_Rank": 122
+  },
+  {
+    "School": "Minnesota",
+    "Conference": "Big Ten",
+    "Record": "15-18",
+    "Cbbontop_Score": 80.96,
+    "Cbbontop_Rank": 123
+  },
+  {
+    "School": "Central Arkansas",
+    "Conference": "ASUN",
+    "Record": "20-12",
+    "Cbbontop_Score": 80.77,
+    "Cbbontop_Rank": 124
+  },
+  {
+    "School": "LSU",
+    "Conference": "SEC",
+    "Record": "15-17",
+    "Cbbontop_Score": 80.46,
+    "Cbbontop_Rank": 125
+  },
+  {
+    "School": "North Texas",
+    "Conference": "American",
+    "Record": "17-14",
+    "Cbbontop_Score": 79.12,
+    "Cbbontop_Rank": 126
+  },
+  {
+    "School": "UIC",
+    "Conference": "MVC",
+    "Record": "17-16",
+    "Cbbontop_Score": 77.94,
+    "Cbbontop_Rank": 127
+  },
+  {
+    "School": "Long Island",
+    "Conference": "NEC",
+    "Record": "24-11",
+    "Cbbontop_Score": 77.42,
+    "Cbbontop_Rank": 128
+  },
+  {
+    "School": "East Tennessee State",
+    "Conference": "SoCon",
+    "Record": "21-11",
+    "Cbbontop_Score": 76.98,
+    "Cbbontop_Rank": 129
+  },
+  {
+    "School": "Duquesne",
+    "Conference": "Atlantic 10",
+    "Record": "16-15",
+    "Cbbontop_Score": 74.56,
+    "Cbbontop_Rank": 130
+  },
+  {
+    "School": "Creighton",
+    "Conference": "Big East",
+    "Record": "16-18",
+    "Cbbontop_Score": 72.92,
+    "Cbbontop_Rank": 131
+  },
+  {
+    "School": "Florida Atlantic",
+    "Conference": "American",
+    "Record": "16-15",
+    "Cbbontop_Score": 72.23,
+    "Cbbontop_Rank": 132
+  },
+  {
+    "School": "Providence",
+    "Conference": "Big East",
+    "Record": "15-18",
+    "Cbbontop_Score": 71.59,
+    "Cbbontop_Rank": 133
+  },
+  {
+    "School": "Cornell",
+    "Conference": "Ivy League",
+    "Record": "13-13",
+    "Cbbontop_Score": 71.44,
+    "Cbbontop_Rank": 134
+  },
+  {
+    "School": "Bowling Green",
+    "Conference": "MAC",
+    "Record": "15-14",
+    "Cbbontop_Score": 71.25,
+    "Cbbontop_Rank": 135
+  },
+  {
+    "School": "UC Davis",
+    "Conference": "Big West",
+    "Record": "17-14",
+    "Cbbontop_Score": 70.39,
+    "Cbbontop_Rank": 136
+  },
+  {
+    "School": "Robert Morris",
+    "Conference": "Horizon",
+    "Record": "20-11",
+    "Cbbontop_Score": 68.85,
+    "Cbbontop_Rank": 137
   },
   {
     "School": "Western Kentucky",
     "Conference": "CUSA",
-    "Record": "15-15",
-    "Cbbontop_Score": 38.59,
-    "Cbbontop_Rank": 177
+    "Record": "16-14",
+    "Cbbontop_Score": 66.53,
+    "Cbbontop_Rank": 138
+  },
+  {
+    "School": "Northern Colorado",
+    "Conference": "Big Sky",
+    "Record": "17-12",
+    "Cbbontop_Score": 66.14,
+    "Cbbontop_Rank": 139
+  },
+  {
+    "School": "Valparaiso",
+    "Conference": "MVC",
+    "Record": "17-15",
+    "Cbbontop_Score": 65.71,
+    "Cbbontop_Rank": 140
   },
   {
     "School": "Toledo",
     "Conference": "MAC",
     "Record": "17-15",
-    "Cbbontop_Score": 37.86,
-    "Cbbontop_Rank": 178
-  },
-  {
-    "School": "American",
-    "Conference": "Patriot",
-    "Record": "20-12",
-    "Cbbontop_Score": 37.8,
-    "Cbbontop_Rank": 179
-  },
-  {
-    "School": "Temple",
-    "Conference": "The American",
-    "Record": "16-15",
-    "Cbbontop_Score": 34.89,
-    "Cbbontop_Rank": 180
-  },
-  {
-    "School": "Vermont",
-    "Conference": "America East",
-    "Record": "19-12",
-    "Cbbontop_Score": 34.25,
-    "Cbbontop_Rank": 181
-  },
-  {
-    "School": "Murray St.",
-    "Conference": "MVC",
-    "Record": "15-17",
-    "Cbbontop_Score": 34.09,
-    "Cbbontop_Rank": 182
-  },
-  {
-    "School": "Longwood",
-    "Conference": "Big South",
-    "Record": "15-14",
-    "Cbbontop_Score": 33.94,
-    "Cbbontop_Rank": 183
-  },
-  {
-    "School": "Texas A&M-CC",
-    "Conference": "Southland",
-    "Record": "16-14",
-    "Cbbontop_Score": 32.55,
-    "Cbbontop_Rank": 184
-  },
-  {
-    "School": "Syracuse",
-    "Conference": "ACC",
-    "Record": "14-19",
-    "Cbbontop_Score": 32.51,
-    "Cbbontop_Rank": 185
-  },
-  {
-    "School": "Idaho St.",
-    "Conference": "Big Sky",
-    "Record": "12-15",
-    "Cbbontop_Score": 31.85,
-    "Cbbontop_Rank": 186
-  },
-  {
-    "School": "South Carolina",
-    "Conference": "SEC",
-    "Record": "12-20",
-    "Cbbontop_Score": 28.93,
-    "Cbbontop_Rank": 187
-  },
-  {
-    "School": "Providence",
-    "Conference": "Big East",
-    "Record": "12-20",
-    "Cbbontop_Score": 26.73,
-    "Cbbontop_Rank": 188
-  },
-  {
-    "School": "Marist",
-    "Conference": "MAAC",
-    "Record": "20-10",
-    "Cbbontop_Score": 26.56,
-    "Cbbontop_Rank": 189
-  },
-  {
-    "School": "Florida Gulf Coast",
-    "Conference": "ASUN",
-    "Record": "17-14",
-    "Cbbontop_Score": 25.58,
-    "Cbbontop_Rank": 190
-  },
-  {
-    "School": "Maine",
-    "Conference": "America East",
-    "Record": "18-14",
-    "Cbbontop_Score": 24.03,
-    "Cbbontop_Rank": 191
-  },
-  {
-    "School": "Virginia Tech",
-    "Conference": "ACC",
-    "Record": "13-19",
-    "Cbbontop_Score": 21.35,
-    "Cbbontop_Rank": 192
-  },
-  {
-    "School": "Delaware St.",
-    "Conference": "MEAC",
-    "Record": "12-14",
-    "Cbbontop_Score": 20.59,
-    "Cbbontop_Rank": 193
-  },
-  {
-    "School": "Brown",
-    "Conference": "Ivy League",
-    "Record": "13-13",
-    "Cbbontop_Score": 19.25,
-    "Cbbontop_Rank": 194
-  },
-  {
-    "School": "Hampton",
-    "Conference": "CAA",
-    "Record": "14-16",
-    "Cbbontop_Score": 17.18,
-    "Cbbontop_Rank": 195
-  },
-  {
-    "School": "Quinnipiac",
-    "Conference": "MAAC",
-    "Record": "19-13",
-    "Cbbontop_Score": 16.96,
-    "Cbbontop_Rank": 196
-  },
-  {
-    "School": "Little Rock",
-    "Conference": "OVC",
-    "Record": "17-14",
-    "Cbbontop_Score": 15.79,
-    "Cbbontop_Rank": 197
-  },
-  {
-    "School": "Alabama St.",
-    "Conference": "SWAC",
-    "Record": "18-15",
-    "Cbbontop_Score": 15.12,
-    "Cbbontop_Rank": 198
-  },
-  {
-    "School": "Texas St.",
-    "Conference": "Sun Belt",
-    "Record": "14-16",
-    "Cbbontop_Score": 15.1,
-    "Cbbontop_Rank": 199
-  },
-  {
-    "School": "San Jose St.",
-    "Conference": "Mountain West",
-    "Record": "13-19",
-    "Cbbontop_Score": 12.92,
-    "Cbbontop_Rank": 200
-  },
-  {
-    "School": "Mount St. Mary's",
-    "Conference": "MAAC",
-    "Record": "21-12",
-    "Cbbontop_Score": 11.77,
-    "Cbbontop_Rank": 201
-  },
-  {
-    "School": "Boston College",
-    "Conference": "ACC",
-    "Record": "12-19",
-    "Cbbontop_Score": 9.79,
-    "Cbbontop_Rank": 202
-  },
-  {
-    "School": "Southeastern Louisiana",
-    "Conference": "Southland",
-    "Record": "16-14",
-    "Cbbontop_Score": 9.76,
-    "Cbbontop_Rank": 203
-  },
-  {
-    "School": "Northern Kentucky",
-    "Conference": "Horizon",
-    "Record": "15-16",
-    "Cbbontop_Score": 9.31,
-    "Cbbontop_Rank": 204
-  },
-  {
-    "School": "William & Mary",
-    "Conference": "CAA",
-    "Record": "15-15",
-    "Cbbontop_Score": 8.58,
-    "Cbbontop_Rank": 205
-  },
-  {
-    "School": "Ohio",
-    "Conference": "MAC",
-    "Record": "15-16",
-    "Cbbontop_Score": 7.13,
-    "Cbbontop_Rank": 206
-  },
-  {
-    "School": "Valparaiso",
-    "Conference": "MVC",
-    "Record": "13-19",
-    "Cbbontop_Score": 6.79,
-    "Cbbontop_Rank": 207
-  },
-  {
-    "School": "Drexel",
-    "Conference": "CAA",
-    "Record": "17-15",
-    "Cbbontop_Score": 6.7,
-    "Cbbontop_Rank": 208
-  },
-  {
-    "School": "Northwestern St.",
-    "Conference": "Southland",
-    "Record": "14-16",
-    "Cbbontop_Score": 6.53,
-    "Cbbontop_Rank": 209
-  },
-  {
-    "School": "La Salle",
-    "Conference": "Atlantic 10",
-    "Record": "13-19",
-    "Cbbontop_Score": 5.94,
-    "Cbbontop_Rank": 210
-  },
-  {
-    "School": "Dartmouth",
-    "Conference": "Ivy League",
-    "Record": "12-14",
-    "Cbbontop_Score": 5.7,
-    "Cbbontop_Rank": 211
-  },
-  {
-    "School": "Duquesne",
-    "Conference": "Atlantic 10",
-    "Record": "12-19",
-    "Cbbontop_Score": 5.51,
-    "Cbbontop_Rank": 212
-  },
-  {
-    "School": "UC Davis",
-    "Conference": "Big West",
-    "Record": "13-17",
-    "Cbbontop_Score": 4.75,
-    "Cbbontop_Rank": 213
-  },
-  {
-    "School": "Seattle",
-    "Conference": "WAC",
-    "Record": "12-18",
-    "Cbbontop_Score": 4.23,
-    "Cbbontop_Rank": 214
-  },
-  {
-    "School": "Merrimack",
-    "Conference": "MAAC",
-    "Record": "18-15",
-    "Cbbontop_Score": 4.07,
-    "Cbbontop_Rank": 215
-  },
-  {
-    "School": "UTRGV",
-    "Conference": "Southland",
-    "Record": "12-15",
-    "Cbbontop_Score": 3.72,
-    "Cbbontop_Rank": 216
-  },
-  {
-    "School": "App St.",
-    "Conference": "Sun Belt",
-    "Record": "15-14",
-    "Cbbontop_Score": 3.44,
-    "Cbbontop_Rank": 217
-  },
-  {
-    "School": "Cal Poly",
-    "Conference": "Big West",
-    "Record": "15-19",
-    "Cbbontop_Score": 3.14,
-    "Cbbontop_Rank": 218
-  },
-  {
-    "School": "Sam Houston",
-    "Conference": "CUSA",
-    "Record": "10-19",
-    "Cbbontop_Score": 2.26,
-    "Cbbontop_Rank": 219
-  },
-  {
-    "School": "Northern Arizona",
-    "Conference": "Big Sky",
-    "Record": "14-15",
-    "Cbbontop_Score": -0.3,
-    "Cbbontop_Rank": 220
-  },
-  {
-    "School": "UTSA",
-    "Conference": "The American",
-    "Record": "10-19",
-    "Cbbontop_Score": -2.04,
-    "Cbbontop_Rank": 221
-  },
-  {
-    "School": "Northeastern",
-    "Conference": "CAA",
-    "Record": "17-15",
-    "Cbbontop_Score": -2.33,
-    "Cbbontop_Rank": 222
-  },
-  {
-    "School": "Abilene Christian",
-    "Conference": "WAC",
-    "Record": "13-16",
-    "Cbbontop_Score": -2.63,
-    "Cbbontop_Rank": 223
-  },
-  {
-    "School": "Oakland",
-    "Conference": "Horizon",
-    "Record": "15-18",
-    "Cbbontop_Score": -3.23,
-    "Cbbontop_Rank": 224
-  },
-  {
-    "School": "Columbia",
-    "Conference": "Ivy League",
-    "Record": "10-15",
-    "Cbbontop_Score": -4.68,
-    "Cbbontop_Rank": 225
-  },
-  {
-    "School": "UMass Lowell",
-    "Conference": "America East",
-    "Record": "14-15",
-    "Cbbontop_Score": -6.93,
-    "Cbbontop_Rank": 226
-  },
-  {
-    "School": "South Florida",
-    "Conference": "The American",
-    "Record": "12-19",
-    "Cbbontop_Score": -6.94,
-    "Cbbontop_Rank": 227
-  },
-  {
-    "School": "Central Michigan",
-    "Conference": "MAC",
-    "Record": "10-17",
-    "Cbbontop_Score": -7.4,
-    "Cbbontop_Rank": 228
-  },
-  {
-    "School": "Elon",
-    "Conference": "CAA",
-    "Record": "15-15",
-    "Cbbontop_Score": -8.02,
-    "Cbbontop_Rank": 229
-  },
-  {
-    "School": "Manhattan",
-    "Conference": "MAAC",
-    "Record": "16-13",
-    "Cbbontop_Score": -8.37,
-    "Cbbontop_Rank": 230
-  },
-  {
-    "School": "Incarnate Word",
-    "Conference": "Southland",
-    "Record": "13-16",
-    "Cbbontop_Score": -11.34,
-    "Cbbontop_Rank": 231
-  },
-  {
-    "School": "Hawaii",
-    "Conference": "Big West",
-    "Record": "13-16",
-    "Cbbontop_Score": -11.45,
-    "Cbbontop_Rank": 232
-  },
-  {
-    "School": "CSU Bakersfield",
-    "Conference": "Big West",
-    "Record": "12-19",
-    "Cbbontop_Score": -12.45,
-    "Cbbontop_Rank": 233
-  },
-  {
-    "School": "Georgia Southern",
-    "Conference": "Sun Belt",
-    "Record": "16-16",
-    "Cbbontop_Score": -12.94,
-    "Cbbontop_Rank": 234
-  },
-  {
-    "School": "Eastern Michigan",
-    "Conference": "MAC",
-    "Record": "15-16",
-    "Cbbontop_Score": -14.31,
-    "Cbbontop_Rank": 235
+    "Cbbontop_Score": 63.43,
+    "Cbbontop_Rank": 141
   },
   {
     "School": "Harvard",
     "Conference": "Ivy League",
-    "Record": "11-15",
-    "Cbbontop_Score": -14.85,
-    "Cbbontop_Rank": 236
+    "Record": "16-12",
+    "Cbbontop_Score": 62.8,
+    "Cbbontop_Rank": 142
   },
   {
-    "School": "Indiana St.",
-    "Conference": "MVC",
-    "Record": "12-18",
-    "Cbbontop_Score": -15.28,
-    "Cbbontop_Rank": 237
+    "School": "Pacific",
+    "Conference": "WCC",
+    "Record": "16-15",
+    "Cbbontop_Score": 60.93,
+    "Cbbontop_Rank": 143
   },
   {
-    "School": "Jackson St.",
-    "Conference": "SWAC",
-    "Record": "16-18",
-    "Cbbontop_Score": -15.79,
-    "Cbbontop_Rank": 238
+    "School": "South Alabama",
+    "Conference": "Sun Belt",
+    "Record": "19-12",
+    "Cbbontop_Score": 59.81,
+    "Cbbontop_Rank": 144
   },
   {
-    "School": "Montana St.",
-    "Conference": "Big Sky",
-    "Record": "14-18",
-    "Cbbontop_Score": -16.28,
-    "Cbbontop_Rank": 239
-  },
-  {
-    "School": "Bucknell",
-    "Conference": "Patriot",
-    "Record": "18-15",
-    "Cbbontop_Score": -17.02,
-    "Cbbontop_Rank": 240
-  },
-  {
-    "School": "Southern Illinois",
-    "Conference": "MVC",
-    "Record": "12-19",
-    "Cbbontop_Score": -17.11,
-    "Cbbontop_Rank": 241
-  },
-  {
-    "School": "Campbell",
-    "Conference": "CAA",
-    "Record": "13-17",
-    "Cbbontop_Score": -17.65,
-    "Cbbontop_Rank": 242
-  },
-  {
-    "School": "Albany",
-    "Conference": "America East",
-    "Record": "15-16",
-    "Cbbontop_Score": -19.67,
-    "Cbbontop_Rank": 243
+    "School": "Kennesaw St.",
+    "Conference": "CUSA",
+    "Record": "18-14",
+    "Cbbontop_Score": 56.52,
+    "Cbbontop_Rank": 145
   },
   {
     "School": "Mercer",
     "Conference": "SoCon",
-    "Record": "12-19",
-    "Cbbontop_Score": -22.28,
-    "Cbbontop_Rank": 244
-  },
-  {
-    "School": "Bethune-Cookman",
-    "Conference": "SWAC",
-    "Record": "17-16",
-    "Cbbontop_Score": -22.66,
-    "Cbbontop_Rank": 245
-  },
-  {
-    "School": "Wyoming",
-    "Conference": "Mountain West",
-    "Record": "11-20",
-    "Cbbontop_Score": -22.98,
-    "Cbbontop_Rank": 246
-  },
-  {
-    "School": "North Florida",
-    "Conference": "ASUN",
-    "Record": "13-17",
-    "Cbbontop_Score": -23.2,
-    "Cbbontop_Rank": 247
-  },
-  {
-    "School": "Mercyhurst",
-    "Conference": "NEC",
-    "Record": "12-16",
-    "Cbbontop_Score": -23.31,
-    "Cbbontop_Rank": 248
-  },
-  {
-    "School": "Texas Southern",
-    "Conference": "SWAC",
-    "Record": "12-17",
-    "Cbbontop_Score": -28.08,
-    "Cbbontop_Rank": 249
-  },
-  {
-    "School": "Massachusetts",
-    "Conference": "Atlantic 10",
-    "Record": "11-20",
-    "Cbbontop_Score": -29.39,
-    "Cbbontop_Rank": 250
-  },
-  {
-    "School": "Wright St.",
-    "Conference": "Horizon",
-    "Record": "13-18",
-    "Cbbontop_Score": -33.61,
-    "Cbbontop_Rank": 251
-  },
-  {
-    "School": "Rice",
-    "Conference": "The American",
-    "Record": "13-18",
-    "Cbbontop_Score": -35.95,
-    "Cbbontop_Rank": 252
-  },
-  {
-    "School": "Kansas City",
-    "Conference": "Summit League",
-    "Record": "9-20",
-    "Cbbontop_Score": -36.07,
-    "Cbbontop_Rank": 253
-  },
-  {
-    "School": "Army",
-    "Conference": "Patriot",
-    "Record": "14-15",
-    "Cbbontop_Score": -37.08,
-    "Cbbontop_Rank": 254
-  },
-  {
-    "School": "Pepperdine",
-    "Conference": "WCC",
-    "Record": "12-22",
-    "Cbbontop_Score": -37.79,
-    "Cbbontop_Rank": 255
-  },
-  {
-    "School": "VMI",
-    "Conference": "SoCon",
-    "Record": "11-19",
-    "Cbbontop_Score": -38.55,
-    "Cbbontop_Rank": 256
-  },
-  {
-    "School": "Tennessee St.",
-    "Conference": "OVC",
-    "Record": "14-16",
-    "Cbbontop_Score": -40.6,
-    "Cbbontop_Rank": 257
-  },
-  {
-    "School": "UT Arlington",
-    "Conference": "WAC",
-    "Record": "11-18",
-    "Cbbontop_Score": -40.89,
-    "Cbbontop_Rank": 258
-  },
-  {
-    "School": "Long Island",
-    "Conference": "NEC",
-    "Record": "15-16",
-    "Cbbontop_Score": -43.28,
-    "Cbbontop_Rank": 259
-  },
-  {
-    "School": "Austin Peay",
-    "Conference": "ASUN",
-    "Record": "12-19",
-    "Cbbontop_Score": -43.34,
-    "Cbbontop_Rank": 260
-  },
-  {
-    "School": "Hofstra",
-    "Conference": "CAA",
-    "Record": "13-18",
-    "Cbbontop_Score": -44.55,
-    "Cbbontop_Rank": 261
-  },
-  {
-    "School": "Fordham",
-    "Conference": "Atlantic 10",
-    "Record": "11-21",
-    "Cbbontop_Score": -45.58,
-    "Cbbontop_Rank": 262
-  },
-  {
-    "School": "Presbyterian",
-    "Conference": "Big South",
-    "Record": "11-18",
-    "Cbbontop_Score": -46.34,
-    "Cbbontop_Rank": 263
-  },
-  {
-    "School": "Iona",
-    "Conference": "MAAC",
-    "Record": "17-17",
-    "Cbbontop_Score": -48.62,
-    "Cbbontop_Rank": 264
-  },
-  {
-    "School": "Saint Francis",
-    "Conference": "NEC",
-    "Record": "13-17",
-    "Cbbontop_Score": -49.26,
-    "Cbbontop_Rank": 265
-  },
-  {
-    "School": "Wagner",
-    "Conference": "NEC",
-    "Record": "10-16",
-    "Cbbontop_Score": -49.91,
-    "Cbbontop_Rank": 266
-  },
-  {
-    "School": "Monmouth",
-    "Conference": "CAA",
-    "Record": "13-20",
-    "Cbbontop_Score": -52.38,
-    "Cbbontop_Rank": 267
-  },
-  {
-    "School": "Seton Hall",
-    "Conference": "Big East",
-    "Record": "7-25",
-    "Cbbontop_Score": -52.76,
-    "Cbbontop_Rank": 268
-  },
-  {
-    "School": "Lindenwood",
-    "Conference": "OVC",
-    "Record": "13-17",
-    "Cbbontop_Score": -53.4,
-    "Cbbontop_Rank": 269
-  },
-  {
-    "School": "Miami (FL)",
-    "Conference": "ACC",
-    "Record": "7-24",
-    "Cbbontop_Score": -54.57,
-    "Cbbontop_Rank": 270
-  },
-  {
-    "School": "Portland",
-    "Conference": "WCC",
-    "Record": "10-20",
-    "Cbbontop_Score": -54.62,
-    "Cbbontop_Rank": 271
-  },
-  {
-    "School": "Idaho",
-    "Conference": "Big Sky",
-    "Record": "12-19",
-    "Cbbontop_Score": -55.17,
-    "Cbbontop_Rank": 272
-  },
-  {
-    "School": "Ball St.",
-    "Conference": "MAC",
-    "Record": "11-17",
-    "Cbbontop_Score": -57.35,
-    "Cbbontop_Rank": 273
+    "Record": "16-13",
+    "Cbbontop_Score": 56.27,
+    "Cbbontop_Rank": 146
   },
   {
     "School": "Siena",
     "Conference": "MAAC",
-    "Record": "14-18",
-    "Cbbontop_Score": -57.77,
-    "Cbbontop_Rank": 274
+    "Record": "23-12",
+    "Cbbontop_Score": 55.71,
+    "Cbbontop_Rank": 147
   },
   {
-    "School": "Florida A&M",
-    "Conference": "SWAC",
-    "Record": "12-17",
-    "Cbbontop_Score": -57.99,
-    "Cbbontop_Rank": 275
+    "School": "Kansas St.",
+    "Conference": "Big 12",
+    "Record": "12-20",
+    "Cbbontop_Score": 55.41,
+    "Cbbontop_Rank": 148
   },
   {
-    "School": "Sacred Heart",
-    "Conference": "MAAC",
-    "Record": "14-18",
-    "Cbbontop_Score": -58.44,
-    "Cbbontop_Rank": 276
+    "School": "UT Martin",
+    "Conference": "OVC",
+    "Record": "19-11",
+    "Cbbontop_Score": 54.95,
+    "Cbbontop_Rank": 149
   },
   {
-    "School": "Bowling Green",
-    "Conference": "MAC",
-    "Record": "12-18",
-    "Cbbontop_Score": -59.05,
-    "Cbbontop_Rank": 277
-  },
-  {
-    "School": "Colgate",
-    "Conference": "Patriot",
-    "Record": "13-19",
-    "Cbbontop_Score": -60.24,
-    "Cbbontop_Rank": 278
-  },
-  {
-    "School": "Stephen F. Austin",
-    "Conference": "Southland",
-    "Record": "11-17",
-    "Cbbontop_Score": -61.35,
-    "Cbbontop_Rank": 279
-  },
-  {
-    "School": "Georgia St.",
+    "School": "Marshall",
     "Conference": "Sun Belt",
-    "Record": "13-19",
-    "Cbbontop_Score": -61.73,
-    "Cbbontop_Rank": 280
+    "Record": "18-13",
+    "Cbbontop_Score": 54.89,
+    "Cbbontop_Rank": 150
   },
   {
-    "School": "Tarleton St.",
-    "Conference": "WAC",
-    "Record": "9-20",
-    "Cbbontop_Score": -61.94,
-    "Cbbontop_Rank": 281
+    "School": "Cal St. Fullerton",
+    "Conference": "Big West",
+    "Record": "16-16",
+    "Cbbontop_Score": 54.68,
+    "Cbbontop_Rank": 151
   },
   {
-    "School": "Richmond",
-    "Conference": "Atlantic 10",
-    "Record": "8-22",
-    "Cbbontop_Score": -63.09,
-    "Cbbontop_Rank": 282
+    "School": "Marist",
+    "Conference": "MAAC",
+    "Record": "18-12",
+    "Cbbontop_Score": 54.46,
+    "Cbbontop_Rank": 152
   },
   {
-    "School": "North Carolina Central",
-    "Conference": "MEAC",
-    "Record": "10-19",
-    "Cbbontop_Score": -64.35,
-    "Cbbontop_Rank": 283
+    "School": "San Francisco",
+    "Conference": "WCC",
+    "Record": "16-16",
+    "Cbbontop_Score": 54.33,
+    "Cbbontop_Rank": 153
   },
   {
-    "School": "Tennessee Tech",
-    "Conference": "OVC",
-    "Record": "13-17",
-    "Cbbontop_Score": -65.61,
-    "Cbbontop_Rank": 284
+    "School": "Notre Dame",
+    "Conference": "ACC",
+    "Record": "13-18",
+    "Cbbontop_Score": 53.89,
+    "Cbbontop_Rank": 154
   },
   {
-    "School": "Delaware",
-    "Conference": "CAA",
-    "Record": "14-20",
-    "Cbbontop_Score": -66.35,
-    "Cbbontop_Rank": 285
-  },
-  {
-    "School": "Evansville",
+    "School": "Southern Illinois",
     "Conference": "MVC",
-    "Record": "10-21",
-    "Cbbontop_Score": -66.47,
-    "Cbbontop_Rank": 286
-  },
-  {
-    "School": "Boston University",
-    "Conference": "Patriot",
     "Record": "15-16",
-    "Cbbontop_Score": -66.47,
-    "Cbbontop_Rank": 287
+    "Cbbontop_Score": 52.76,
+    "Cbbontop_Rank": 155
   },
   {
-    "School": "Stonehill",
-    "Conference": "NEC",
-    "Record": "13-17",
-    "Cbbontop_Score": -66.72,
-    "Cbbontop_Rank": 288
+    "School": "Montana St.",
+    "Conference": "Big Sky",
+    "Record": "15-14",
+    "Cbbontop_Score": 51.01,
+    "Cbbontop_Rank": 156
   },
   {
-    "School": "Morehead St.",
-    "Conference": "OVC",
-    "Record": "12-17",
-    "Cbbontop_Score": -67.61,
-    "Cbbontop_Rank": 289
+    "School": "Lipscomb",
+    "Conference": "ASUN",
+    "Record": "17-13",
+    "Cbbontop_Score": 50.88,
+    "Cbbontop_Rank": 157
   },
   {
-    "School": "Tulsa",
-    "Conference": "The American",
-    "Record": "11-20",
-    "Cbbontop_Score": -67.9,
-    "Cbbontop_Rank": 290
+    "School": "St. Bonaventure",
+    "Conference": "Atlantic 10",
+    "Record": "16-17",
+    "Cbbontop_Score": 50.84,
+    "Cbbontop_Rank": 158
+  },
+  {
+    "School": "CSUN",
+    "Conference": "Big West",
+    "Record": "18-14",
+    "Cbbontop_Score": 50.72,
+    "Cbbontop_Rank": 159
+  },
+  {
+    "School": "South Carolina",
+    "Conference": "SEC",
+    "Record": "13-19",
+    "Cbbontop_Score": 49.89,
+    "Cbbontop_Rank": 160
+  },
+  {
+    "School": "Columbia",
+    "Conference": "Ivy League",
+    "Record": "14-12",
+    "Cbbontop_Score": 49.86,
+    "Cbbontop_Rank": 161
+  },
+  {
+    "School": "Rutgers",
+    "Conference": "Big Ten",
+    "Record": "14-20",
+    "Cbbontop_Score": 49.83,
+    "Cbbontop_Rank": 162
+  },
+  {
+    "School": "Arkansas St.",
+    "Conference": "Sun Belt",
+    "Record": "18-12",
+    "Cbbontop_Score": 49.8,
+    "Cbbontop_Rank": 163
+  },
+  {
+    "School": "Tulane",
+    "Conference": "American",
+    "Record": "17-15",
+    "Cbbontop_Score": 49.06,
+    "Cbbontop_Rank": 164
+  },
+  {
+    "School": "Queens",
+    "Conference": "ASUN",
+    "Record": "20-14",
+    "Cbbontop_Score": 48.69,
+    "Cbbontop_Rank": 165
+  },
+  {
+    "School": "Quinnipiac",
+    "Conference": "MAAC",
+    "Record": "18-13",
+    "Cbbontop_Score": 48.04,
+    "Cbbontop_Rank": 166
   },
   {
     "School": "Saint Peter's",
     "Conference": "MAAC",
-    "Record": "11-16",
-    "Cbbontop_Score": -69.51,
-    "Cbbontop_Rank": 291
+    "Record": "16-12",
+    "Cbbontop_Score": 48.0,
+    "Cbbontop_Rank": 167
+  },
+  {
+    "School": "UC Santa Barbara",
+    "Conference": "Big West",
+    "Record": "16-14",
+    "Cbbontop_Score": 47.8,
+    "Cbbontop_Rank": 168
+  },
+  {
+    "School": "Pittsburgh",
+    "Conference": "ACC",
+    "Record": "13-20",
+    "Cbbontop_Score": 47.77,
+    "Cbbontop_Rank": 169
+  },
+  {
+    "School": "Marquette",
+    "Conference": "Big East",
+    "Record": "12-20",
+    "Cbbontop_Score": 47.63,
+    "Cbbontop_Rank": 170
+  },
+  {
+    "School": "Idaho",
+    "Conference": "Big Sky",
+    "Record": "18-15",
+    "Cbbontop_Score": 47.11,
+    "Cbbontop_Rank": 171
+  },
+  {
+    "School": "Mississippi St.",
+    "Conference": "SEC",
+    "Record": "13-19",
+    "Cbbontop_Score": 44.47,
+    "Cbbontop_Rank": 172
+  },
+  {
+    "School": "Rhode Island",
+    "Conference": "Atlantic 10",
+    "Record": "16-16",
+    "Cbbontop_Score": 43.94,
+    "Cbbontop_Rank": 173
+  },
+  {
+    "School": "Northern Kentucky",
+    "Conference": "Horizon",
+    "Record": "17-14",
+    "Cbbontop_Score": 43.58,
+    "Cbbontop_Rank": 174
+  },
+  {
+    "School": "Louisiana Tech",
+    "Conference": "CUSA",
+    "Record": "17-14",
+    "Cbbontop_Score": 40.06,
+    "Cbbontop_Rank": 175
+  },
+  {
+    "School": "Furman",
+    "Conference": "SoCon",
+    "Record": "19-13",
+    "Cbbontop_Score": 39.89,
+    "Cbbontop_Rank": 176
+  },
+  {
+    "School": "UT Arlington",
+    "Conference": "WAC",
+    "Record": "16-14",
+    "Cbbontop_Score": 38.81,
+    "Cbbontop_Rank": 177
+  },
+  {
+    "School": "Vermont",
+    "Conference": "America East",
+    "Record": "20-12",
+    "Cbbontop_Score": 38.63,
+    "Cbbontop_Rank": 178
+  },
+  {
+    "School": "Oregon St.",
+    "Conference": "WCC",
+    "Record": "17-16",
+    "Cbbontop_Score": 38.41,
+    "Cbbontop_Rank": 179
+  },
+  {
+    "School": "Utah Tech",
+    "Conference": "WAC",
+    "Record": "16-15",
+    "Cbbontop_Score": 37.68,
+    "Cbbontop_Rank": 180
+  },
+  {
+    "School": "Oregon",
+    "Conference": "Big Ten",
+    "Record": "12-20",
+    "Cbbontop_Score": 37.45,
+    "Cbbontop_Rank": 181
+  },
+  {
+    "School": "Fairfield",
+    "Conference": "MAAC",
+    "Record": "20-13",
+    "Cbbontop_Score": 36.75,
+    "Cbbontop_Rank": 182
+  },
+  {
+    "School": "Texas A&M-CC",
+    "Conference": "Southland",
+    "Record": "14-15",
+    "Cbbontop_Score": 36.71,
+    "Cbbontop_Rank": 183
+  },
+  {
+    "School": "Monmouth",
+    "Conference": "CAA",
+    "Record": "18-15",
+    "Cbbontop_Score": 36.62,
+    "Cbbontop_Rank": 184
+  },
+  {
+    "School": "Wofford",
+    "Conference": "SoCon",
+    "Record": "17-13",
+    "Cbbontop_Score": 35.69,
+    "Cbbontop_Rank": 185
+  },
+  {
+    "School": "Richmond",
+    "Conference": "Atlantic 10",
+    "Record": "14-17",
+    "Cbbontop_Score": 35.06,
+    "Cbbontop_Rank": 186
+  },
+  {
+    "School": "UTRGV",
+    "Conference": "Southland",
+    "Record": "17-14",
+    "Cbbontop_Score": 34.45,
+    "Cbbontop_Rank": 187
+  },
+  {
+    "School": "Temple",
+    "Conference": "American",
+    "Record": "15-16",
+    "Cbbontop_Score": 34.33,
+    "Cbbontop_Rank": 188
+  },
+  {
+    "School": "Fordham",
+    "Conference": "Atlantic 10",
+    "Record": "14-15",
+    "Cbbontop_Score": 34.08,
+    "Cbbontop_Rank": 189
+  },
+  {
+    "School": "Towson",
+    "Conference": "CAA",
+    "Record": "17-15",
+    "Cbbontop_Score": 33.9,
+    "Cbbontop_Rank": 190
+  },
+  {
+    "School": "Middle Tennessee St.",
+    "Conference": "CUSA",
+    "Record": "14-15",
+    "Cbbontop_Score": 33.48,
+    "Cbbontop_Rank": 191
+  },
+  {
+    "School": "Buffalo",
+    "Conference": "MAC",
+    "Record": "15-15",
+    "Cbbontop_Score": 31.65,
+    "Cbbontop_Rank": 192
+  },
+  {
+    "School": "Texas St.",
+    "Conference": "Sun Belt",
+    "Record": "17-13",
+    "Cbbontop_Score": 31.5,
+    "Cbbontop_Rank": 193
+  },
+  {
+    "School": "Purdue Fort Wayne",
+    "Conference": "Horizon",
+    "Record": "14-15",
+    "Cbbontop_Score": 30.47,
+    "Cbbontop_Rank": 194
+  },
+  {
+    "School": "Penn St.",
+    "Conference": "Big Ten",
+    "Record": "12-20",
+    "Cbbontop_Score": 26.91,
+    "Cbbontop_Rank": 195
+  },
+  {
+    "School": "Samford",
+    "Conference": "SoCon",
+    "Record": "16-14",
+    "Cbbontop_Score": 22.69,
+    "Cbbontop_Rank": 196
+  },
+  {
+    "School": "Massachusetts",
+    "Conference": "MAC",
+    "Record": "16-16",
+    "Cbbontop_Score": 22.52,
+    "Cbbontop_Rank": 197
+  },
+  {
+    "School": "Morehead St.",
+    "Conference": "OVC",
+    "Record": "17-13",
+    "Cbbontop_Score": 22.12,
+    "Cbbontop_Rank": 198
+  },
+  {
+    "School": "Detroit Mercy",
+    "Conference": "Horizon",
+    "Record": "15-15",
+    "Cbbontop_Score": 22.04,
+    "Cbbontop_Rank": 199
+  },
+  {
+    "School": "App St.",
+    "Conference": "Sun Belt",
+    "Record": "17-13",
+    "Cbbontop_Score": 20.45,
+    "Cbbontop_Rank": 200
+  },
+  {
+    "School": "Maryland",
+    "Conference": "Big Ten",
+    "Record": "12-21",
+    "Cbbontop_Score": 19.97,
+    "Cbbontop_Rank": 201
+  },
+  {
+    "School": "Weber St.",
+    "Conference": "Big Sky",
+    "Record": "14-16",
+    "Cbbontop_Score": 18.97,
+    "Cbbontop_Rank": 202
+  },
+  {
+    "School": "Stony Brook",
+    "Conference": "CAA",
+    "Record": "15-15",
+    "Cbbontop_Score": 17.34,
+    "Cbbontop_Rank": 203
+  },
+  {
+    "School": "Oakland",
+    "Conference": "Horizon",
+    "Record": "15-16",
+    "Cbbontop_Score": 17.3,
+    "Cbbontop_Rank": 204
+  },
+  {
+    "School": "Charlotte",
+    "Conference": "American",
+    "Record": "16-17",
+    "Cbbontop_Score": 16.85,
+    "Cbbontop_Rank": 205
+  },
+  {
+    "School": "Memphis",
+    "Conference": "American",
+    "Record": "13-19",
+    "Cbbontop_Score": 16.52,
+    "Cbbontop_Rank": 206
+  },
+  {
+    "School": "Central Connecticut St.",
+    "Conference": "NEC",
+    "Record": "16-12",
+    "Cbbontop_Score": 16.06,
+    "Cbbontop_Rank": 207
+  },
+  {
+    "School": "Coastal Carolina",
+    "Conference": "Sun Belt",
+    "Record": "18-13",
+    "Cbbontop_Score": 15.69,
+    "Cbbontop_Rank": 208
+  },
+  {
+    "School": "Green Bay",
+    "Conference": "Horizon",
+    "Record": "16-15",
+    "Cbbontop_Score": 13.98,
+    "Cbbontop_Rank": 209
+  },
+  {
+    "School": "Southeast Missouri State",
+    "Conference": "OVC",
+    "Record": "17-13",
+    "Cbbontop_Score": 12.86,
+    "Cbbontop_Rank": 210
+  },
+  {
+    "School": "Campbell",
+    "Conference": "CAA",
+    "Record": "14-18",
+    "Cbbontop_Score": 8.51,
+    "Cbbontop_Rank": 211
+  },
+  {
+    "School": "Fresno St.",
+    "Conference": "Mountain West",
+    "Record": "12-19",
+    "Cbbontop_Score": 8.42,
+    "Cbbontop_Rank": 212
+  },
+  {
+    "School": "Radford",
+    "Conference": "Big South",
+    "Record": "13-16",
+    "Cbbontop_Score": 8.31,
+    "Cbbontop_Rank": 213
+  },
+  {
+    "School": "Montana",
+    "Conference": "Big Sky",
+    "Record": "15-15",
+    "Cbbontop_Score": 8.17,
+    "Cbbontop_Rank": 214
+  },
+  {
+    "School": "Loyola Marymount",
+    "Conference": "WCC",
+    "Record": "14-17",
+    "Cbbontop_Score": 4.56,
+    "Cbbontop_Rank": 215
+  },
+  {
+    "School": "Ohio",
+    "Conference": "MAC",
+    "Record": "13-17",
+    "Cbbontop_Score": 2.24,
+    "Cbbontop_Rank": 216
+  },
+  {
+    "School": "Western Carolina",
+    "Conference": "SoCon",
+    "Record": "13-16",
+    "Cbbontop_Score": 1.75,
+    "Cbbontop_Rank": 217
+  },
+  {
+    "School": "Florida International",
+    "Conference": "CUSA",
+    "Record": "12-17",
+    "Cbbontop_Score": 1.49,
+    "Cbbontop_Rank": 218
+  },
+  {
+    "School": "Colgate",
+    "Conference": "Patriot",
+    "Record": "16-15",
+    "Cbbontop_Score": 1.45,
+    "Cbbontop_Rank": 219
+  },
+  {
+    "School": "Southern Mississippi",
+    "Conference": "Sun Belt",
+    "Record": "17-16",
+    "Cbbontop_Score": 0.94,
+    "Cbbontop_Rank": 220
+  },
+  {
+    "School": "North Dakota",
+    "Conference": "Summit League",
+    "Record": "15-17",
+    "Cbbontop_Score": 0.37,
+    "Cbbontop_Rank": 221
+  },
+  {
+    "School": "New Mexico St.",
+    "Conference": "CUSA",
+    "Record": "13-16",
+    "Cbbontop_Score": -0.55,
+    "Cbbontop_Rank": 222
+  },
+  {
+    "School": "SIUE",
+    "Conference": "OVC",
+    "Record": "16-13",
+    "Cbbontop_Score": -1.83,
+    "Cbbontop_Rank": 223
+  },
+  {
+    "School": "Georgia Southern",
+    "Conference": "Sun Belt",
+    "Record": "19-16",
+    "Cbbontop_Score": -2.97,
+    "Cbbontop_Rank": 224
+  },
+  {
+    "School": "Utah",
+    "Conference": "Big 12",
+    "Record": "10-22",
+    "Cbbontop_Score": -3.31,
+    "Cbbontop_Rank": 225
+  },
+  {
+    "School": "Georgia Tech",
+    "Conference": "ACC",
+    "Record": "11-20",
+    "Cbbontop_Score": -3.55,
+    "Cbbontop_Rank": 226
+  },
+  {
+    "School": "Drake",
+    "Conference": "MVC",
+    "Record": "12-20",
+    "Cbbontop_Score": -4.18,
+    "Cbbontop_Rank": 227
+  },
+  {
+    "School": "Bethune-Cookman",
+    "Conference": "SWAC",
+    "Record": "16-15",
+    "Cbbontop_Score": -4.54,
+    "Cbbontop_Rank": 228
+  },
+  {
+    "School": "Portland",
+    "Conference": "WCC",
+    "Record": "13-19",
+    "Cbbontop_Score": -6.89,
+    "Cbbontop_Rank": 229
+  },
+  {
+    "School": "Iona",
+    "Conference": "MAAC",
+    "Record": "18-14",
+    "Cbbontop_Score": -7.82,
+    "Cbbontop_Rank": 230
+  },
+  {
+    "School": "Drexel",
+    "Conference": "CAA",
+    "Record": "16-16",
+    "Cbbontop_Score": -8.22,
+    "Cbbontop_Rank": 231
+  },
+  {
+    "School": "Southern",
+    "Conference": "SWAC",
+    "Record": "14-17",
+    "Cbbontop_Score": -8.5,
+    "Cbbontop_Rank": 232
+  },
+  {
+    "School": "Eastern Washington",
+    "Conference": "Big Sky",
+    "Record": "13-19",
+    "Cbbontop_Score": -8.5,
+    "Cbbontop_Rank": 233
+  },
+  {
+    "School": "American",
+    "Conference": "Patriot",
+    "Record": "14-16",
+    "Cbbontop_Score": -10.68,
+    "Cbbontop_Rank": 234
+  },
+  {
+    "School": "Lindenwood",
+    "Conference": "OVC",
+    "Record": "15-15",
+    "Cbbontop_Score": -11.1,
+    "Cbbontop_Rank": 235
+  },
+  {
+    "School": "Boston College",
+    "Conference": "ACC",
+    "Record": "11-20",
+    "Cbbontop_Score": -11.87,
+    "Cbbontop_Rank": 236
+  },
+  {
+    "School": "James Madison",
+    "Conference": "Sun Belt",
+    "Record": "17-15",
+    "Cbbontop_Score": -12.22,
+    "Cbbontop_Rank": 237
+  },
+  {
+    "School": "Longwood",
+    "Conference": "Big South",
+    "Record": "13-16",
+    "Cbbontop_Score": -12.35,
+    "Cbbontop_Rank": 238
+  },
+  {
+    "School": "Denver",
+    "Conference": "Summit League",
+    "Record": "12-17",
+    "Cbbontop_Score": -12.35,
+    "Cbbontop_Rank": 239
+  },
+  {
+    "School": "Washington St.",
+    "Conference": "WCC",
+    "Record": "11-20",
+    "Cbbontop_Score": -13.51,
+    "Cbbontop_Rank": 240
+  },
+  {
+    "School": "South Dakota",
+    "Conference": "Summit League",
+    "Record": "13-16",
+    "Cbbontop_Score": -13.81,
+    "Cbbontop_Rank": 241
+  },
+  {
+    "School": "Youngstown St.",
+    "Conference": "Horizon",
+    "Record": "12-17",
+    "Cbbontop_Score": -15.41,
+    "Cbbontop_Rank": 242
+  },
+  {
+    "School": "Mercyhurst",
+    "Conference": "NEC",
+    "Record": "15-17",
+    "Cbbontop_Score": -17.31,
+    "Cbbontop_Rank": 243
+  },
+  {
+    "School": "Rice",
+    "Conference": "American",
+    "Record": "11-18",
+    "Cbbontop_Score": -21.43,
+    "Cbbontop_Rank": 244
+  },
+  {
+    "School": "UNC Asheville",
+    "Conference": "Big South",
+    "Record": "12-17",
+    "Cbbontop_Score": -22.46,
+    "Cbbontop_Rank": 245
+  },
+  {
+    "School": "Tarleton St.",
+    "Conference": "WAC",
+    "Record": "10-18",
+    "Cbbontop_Score": -23.6,
+    "Cbbontop_Rank": 246
+  },
+  {
+    "School": "Nicholls",
+    "Conference": "Southland",
+    "Record": "13-19",
+    "Cbbontop_Score": -24.2,
+    "Cbbontop_Rank": 247
+  },
+  {
+    "School": "Jacksonville St.",
+    "Conference": "CUSA",
+    "Record": "12-17",
+    "Cbbontop_Score": -24.81,
+    "Cbbontop_Rank": 248
+  },
+  {
+    "School": "Missouri St.",
+    "Conference": "CUSA",
+    "Record": "13-18",
+    "Cbbontop_Score": -25.36,
+    "Cbbontop_Rank": 249
+  },
+  {
+    "School": "South Dakota St.",
+    "Conference": "Summit League",
+    "Record": "11-18",
+    "Cbbontop_Score": -27.28,
+    "Cbbontop_Rank": 250
+  },
+  {
+    "School": "Abilene Christian",
+    "Conference": "WAC",
+    "Record": "11-19",
+    "Cbbontop_Score": -28.19,
+    "Cbbontop_Rank": 251
+  },
+  {
+    "School": "San Jose St.",
+    "Conference": "Mountain West",
+    "Record": "8-24",
+    "Cbbontop_Score": -29.53,
+    "Cbbontop_Rank": 252
+  },
+  {
+    "School": "Florida Gulf Coast",
+    "Conference": "ASUN",
+    "Record": "14-18",
+    "Cbbontop_Score": -31.01,
+    "Cbbontop_Rank": 253
+  },
+  {
+    "School": "New Orleans",
+    "Conference": "Southland",
+    "Record": "15-18",
+    "Cbbontop_Score": -31.17,
+    "Cbbontop_Rank": 254
+  },
+  {
+    "School": "Elon",
+    "Conference": "CAA",
+    "Record": "12-18",
+    "Cbbontop_Score": -31.48,
+    "Cbbontop_Rank": 255
+  },
+  {
+    "School": "Prairie View A&M",
+    "Conference": "SWAC",
+    "Record": "15-18",
+    "Cbbontop_Score": -32.94,
+    "Cbbontop_Rank": 256
+  },
+  {
+    "School": "Alabama A&M",
+    "Conference": "SWAC",
+    "Record": "15-15",
+    "Cbbontop_Score": -33.14,
+    "Cbbontop_Rank": 257
+  },
+  {
+    "School": "Dartmouth",
+    "Conference": "Ivy League",
+    "Record": "9-16",
+    "Cbbontop_Score": -33.24,
+    "Cbbontop_Rank": 258
+  },
+  {
+    "School": "Omaha",
+    "Conference": "Summit League",
+    "Record": "12-17",
+    "Cbbontop_Score": -33.94,
+    "Cbbontop_Rank": 259
+  },
+  {
+    "School": "Cal Poly",
+    "Conference": "Big West",
+    "Record": "12-19",
+    "Cbbontop_Score": -38.33,
+    "Cbbontop_Rank": 260
+  },
+  {
+    "School": "San Diego",
+    "Conference": "WCC",
+    "Record": "10-21",
+    "Cbbontop_Score": -40.49,
+    "Cbbontop_Rank": 261
+  },
+  {
+    "School": "Norfolk St.",
+    "Conference": "MEAC",
+    "Record": "11-17",
+    "Cbbontop_Score": -44.03,
+    "Cbbontop_Rank": 262
+  },
+  {
+    "School": "Lamar",
+    "Conference": "Southland",
+    "Record": "10-19",
+    "Cbbontop_Score": -45.49,
+    "Cbbontop_Rank": 263
+  },
+  {
+    "School": "West Georgia",
+    "Conference": "ASUN",
+    "Record": "13-17",
+    "Cbbontop_Score": -47.63,
+    "Cbbontop_Rank": 264
+  },
+  {
+    "School": "Idaho St.",
+    "Conference": "Big Sky",
+    "Record": "10-20",
+    "Cbbontop_Score": -47.9,
+    "Cbbontop_Rank": 265
+  },
+  {
+    "School": "Charleston Southern",
+    "Conference": "Big South",
+    "Record": "12-17",
+    "Cbbontop_Score": -48.8,
+    "Cbbontop_Rank": 266
+  },
+  {
+    "School": "Sacramento St.",
+    "Conference": "Big Sky",
+    "Record": "7-21",
+    "Cbbontop_Score": -48.95,
+    "Cbbontop_Rank": 267
+  },
+  {
+    "School": "NJIT",
+    "Conference": "America East",
+    "Record": "15-17",
+    "Cbbontop_Score": -49.71,
+    "Cbbontop_Rank": 268
+  },
+  {
+    "School": "North Carolina Central",
+    "Conference": "MEAC",
+    "Record": "10-18",
+    "Cbbontop_Score": -50.0,
+    "Cbbontop_Rank": 269
+  },
+  {
+    "School": "Florida A&M",
+    "Conference": "SWAC",
+    "Record": "13-16",
+    "Cbbontop_Score": -50.19,
+    "Cbbontop_Rank": 270
+  },
+  {
+    "School": "Brown",
+    "Conference": "Ivy League",
+    "Record": "7-18",
+    "Cbbontop_Score": -50.68,
+    "Cbbontop_Rank": 271
+  },
+  {
+    "School": "Incarnate Word",
+    "Conference": "Southland",
+    "Record": "9-19",
+    "Cbbontop_Score": -51.58,
+    "Cbbontop_Rank": 272
+  },
+  {
+    "School": "Milwaukee",
+    "Conference": "Horizon",
+    "Record": "11-20",
+    "Cbbontop_Score": -52.08,
+    "Cbbontop_Rank": 273
+  },
+  {
+    "School": "Hampton",
+    "Conference": "CAA",
+    "Record": "11-19",
+    "Cbbontop_Score": -53.09,
+    "Cbbontop_Rank": 274
+  },
+  {
+    "School": "Lehigh",
+    "Conference": "Patriot",
+    "Record": "16-17",
+    "Cbbontop_Score": -53.73,
+    "Cbbontop_Rank": 275
+  },
+  {
+    "School": "Ball St.",
+    "Conference": "MAC",
+    "Record": "10-19",
+    "Cbbontop_Score": -53.92,
+    "Cbbontop_Rank": 276
   },
   {
     "School": "Morgan St.",
     "Conference": "MEAC",
-    "Record": "10-18",
-    "Cbbontop_Score": -71.55,
+    "Record": "11-16",
+    "Cbbontop_Score": -54.5,
+    "Cbbontop_Rank": 277
+  },
+  {
+    "School": "Boston University",
+    "Conference": "Patriot",
+    "Record": "16-17",
+    "Cbbontop_Score": -55.54,
+    "Cbbontop_Rank": 278
+  },
+  {
+    "School": "Presbyterian",
+    "Conference": "Big South",
+    "Record": "12-18",
+    "Cbbontop_Score": -55.73,
+    "Cbbontop_Rank": 279
+  },
+  {
+    "School": "Arkansas Pine Bluff",
+    "Conference": "SWAC",
+    "Record": "11-19",
+    "Cbbontop_Score": -56.97,
+    "Cbbontop_Rank": 280
+  },
+  {
+    "School": "Mount St. Mary's",
+    "Conference": "MAAC",
+    "Record": "14-17",
+    "Cbbontop_Score": -57.27,
+    "Cbbontop_Rank": 281
+  },
+  {
+    "School": "La Salle",
+    "Conference": "Atlantic 10",
+    "Record": "8-23",
+    "Cbbontop_Score": -58.98,
+    "Cbbontop_Rank": 282
+  },
+  {
+    "School": "Wagner",
+    "Conference": "NEC",
+    "Record": "11-17",
+    "Cbbontop_Score": -59.17,
+    "Cbbontop_Rank": 283
+  },
+  {
+    "School": "East Carolina",
+    "Conference": "American",
+    "Record": "10-20",
+    "Cbbontop_Score": -59.71,
+    "Cbbontop_Rank": 284
+  },
+  {
+    "School": "UMass Lowell",
+    "Conference": "America East",
+    "Record": "12-18",
+    "Cbbontop_Score": -61.34,
+    "Cbbontop_Rank": 285
+  },
+  {
+    "School": "UTEP",
+    "Conference": "CUSA",
+    "Record": "8-20",
+    "Cbbontop_Score": -62.84,
+    "Cbbontop_Rank": 286
+  },
+  {
+    "School": "USC Upstate",
+    "Conference": "Big South",
+    "Record": "10-19",
+    "Cbbontop_Score": -63.68,
+    "Cbbontop_Rank": 287
+  },
+  {
+    "School": "Indiana St.",
+    "Conference": "MVC",
+    "Record": "9-21",
+    "Cbbontop_Score": -64.44,
+    "Cbbontop_Rank": 288
+  },
+  {
+    "School": "New Haven",
+    "Conference": "NEC",
+    "Record": "11-17",
+    "Cbbontop_Score": -66.93,
+    "Cbbontop_Rank": 289
+  },
+  {
+    "School": "Eastern Michigan",
+    "Conference": "MAC",
+    "Record": "9-21",
+    "Cbbontop_Score": -67.75,
+    "Cbbontop_Rank": 290
+  },
+  {
+    "School": "Old Dominion",
+    "Conference": "Sun Belt",
+    "Record": "11-21",
+    "Cbbontop_Score": -67.89,
+    "Cbbontop_Rank": 291
+  },
+  {
+    "School": "Bellarmine",
+    "Conference": "ASUN",
+    "Record": "11-19",
+    "Cbbontop_Score": -69.28,
     "Cbbontop_Rank": 292
   },
   {
     "School": "Western Michigan",
     "Conference": "MAC",
-    "Record": "11-20",
-    "Cbbontop_Score": -72.83,
+    "Record": "9-20",
+    "Cbbontop_Score": -70.61,
     "Cbbontop_Rank": 293
   },
   {
-    "School": "Alcorn St.",
-    "Conference": "SWAC",
-    "Record": "11-20",
-    "Cbbontop_Score": -73.92,
+    "School": "Le Moyne",
+    "Conference": "NEC",
+    "Record": "14-17",
+    "Cbbontop_Score": -71.06,
     "Cbbontop_Rank": 294
   },
   {
-    "School": "North Dakota",
-    "Conference": "Summit League",
-    "Record": "9-21",
-    "Cbbontop_Score": -74.02,
+    "School": "North Carolina A&T",
+    "Conference": "CAA",
+    "Record": "9-19",
+    "Cbbontop_Score": -72.92,
     "Cbbontop_Rank": 295
   },
   {
-    "School": "Howard",
-    "Conference": "MEAC",
-    "Record": "10-18",
-    "Cbbontop_Score": -75.03,
+    "School": "UNC Greensboro",
+    "Conference": "SoCon",
+    "Record": "13-19",
+    "Cbbontop_Score": -73.53,
     "Cbbontop_Rank": 296
   },
   {
-    "School": "Eastern Illinois",
-    "Conference": "OVC",
-    "Record": "9-19",
-    "Cbbontop_Score": -77.31,
+    "School": "Long Beach St.",
+    "Conference": "Big West",
+    "Record": "8-22",
+    "Cbbontop_Score": -74.19,
     "Cbbontop_Rank": 297
   },
   {
-    "School": "UPenn",
-    "Conference": "Ivy League",
-    "Record": "8-19",
-    "Cbbontop_Score": -77.57,
+    "School": "Sacred Heart",
+    "Conference": "MAAC",
+    "Record": "13-19",
+    "Cbbontop_Score": -75.74,
     "Cbbontop_Rank": 298
   },
   {
-    "School": "Navy",
-    "Conference": "Patriot",
-    "Record": "14-19",
-    "Cbbontop_Score": -79.42,
+    "School": "Princeton",
+    "Conference": "Ivy League",
+    "Record": "8-20",
+    "Cbbontop_Score": -76.18,
     "Cbbontop_Rank": 299
   },
   {
-    "School": "Florida International",
-    "Conference": "CUSA",
-    "Record": "8-23",
-    "Cbbontop_Score": -80.13,
+    "School": "Jacksonville",
+    "Conference": "ASUN",
+    "Record": "10-20",
+    "Cbbontop_Score": -76.98,
     "Cbbontop_Rank": 300
   },
   {
-    "School": "Charlotte",
-    "Conference": "The American",
-    "Record": "10-22",
-    "Cbbontop_Score": -81.8,
+    "School": "Texas Southern",
+    "Conference": "SWAC",
+    "Record": "10-18",
+    "Cbbontop_Score": -80.86,
     "Cbbontop_Rank": 301
   },
   {
-    "School": "Southern Utah",
-    "Conference": "WAC",
-    "Record": "9-19",
-    "Cbbontop_Score": -82.87,
+    "School": "Central Michigan",
+    "Conference": "MAC",
+    "Record": "8-21",
+    "Cbbontop_Score": -81.6,
     "Cbbontop_Rank": 302
   },
   {
-    "School": "Denver",
-    "Conference": "Summit League",
-    "Record": "8-21",
-    "Cbbontop_Score": -83.33,
+    "School": "UC Riverside",
+    "Conference": "Big West",
+    "Record": "8-22",
+    "Cbbontop_Score": -82.23,
     "Cbbontop_Rank": 303
-  },
-  {
-    "School": "UT Martin",
-    "Conference": "OVC",
-    "Record": "11-19",
-    "Cbbontop_Score": -83.88,
-    "Cbbontop_Rank": 304
-  },
-  {
-    "School": "UMBC",
-    "Conference": "America East",
-    "Record": "10-19",
-    "Cbbontop_Score": -83.88,
-    "Cbbontop_Rank": 305
-  },
-  {
-    "School": "Fairleigh Dickinson",
-    "Conference": "NEC",
-    "Record": "10-20",
-    "Cbbontop_Score": -84.82,
-    "Cbbontop_Rank": 306
-  },
-  {
-    "School": "Rider",
-    "Conference": "MAAC",
-    "Record": "14-19",
-    "Cbbontop_Score": -85.88,
-    "Cbbontop_Rank": 307
-  },
-  {
-    "School": "Old Dominion",
-    "Conference": "Sun Belt",
-    "Record": "13-20",
-    "Cbbontop_Score": -86.79,
-    "Cbbontop_Rank": 308
   },
   {
     "School": "Houston Christian",
     "Conference": "Southland",
     "Record": "10-20",
-    "Cbbontop_Score": -87.26,
-    "Cbbontop_Rank": 309
+    "Cbbontop_Score": -83.65,
+    "Cbbontop_Rank": 304
   },
   {
-    "School": "Binghamton",
-    "Conference": "America East",
-    "Record": "12-17",
-    "Cbbontop_Score": -87.41,
-    "Cbbontop_Rank": 310
+    "School": "Chattanooga",
+    "Conference": "SoCon",
+    "Record": "10-19",
+    "Cbbontop_Score": -83.72,
+    "Cbbontop_Rank": 305
   },
   {
-    "School": "Missouri St.",
-    "Conference": "MVC",
-    "Record": "7-23",
-    "Cbbontop_Score": -88.16,
-    "Cbbontop_Rank": 311
+    "School": "Eastern Kentucky",
+    "Conference": "ASUN",
+    "Record": "9-21",
+    "Cbbontop_Score": -86.08,
+    "Cbbontop_Rank": 306
   },
   {
-    "School": "Eastern Washington",
-    "Conference": "Big Sky",
-    "Record": "8-22",
-    "Cbbontop_Score": -90.98,
-    "Cbbontop_Rank": 312
+    "School": "Little Rock",
+    "Conference": "OVC",
+    "Record": "10-20",
+    "Cbbontop_Score": -90.36,
+    "Cbbontop_Rank": 307
   },
   {
-    "School": "Lafayette",
-    "Conference": "Patriot",
-    "Record": "12-20",
-    "Cbbontop_Score": -95.86,
-    "Cbbontop_Rank": 313
-  },
-  {
-    "School": "Louisiana",
-    "Conference": "Sun Belt",
-    "Record": "11-21",
-    "Cbbontop_Score": -96.17,
-    "Cbbontop_Rank": 314
+    "School": "Tennessee Tech",
+    "Conference": "OVC",
+    "Record": "10-18",
+    "Cbbontop_Score": -91.01,
+    "Cbbontop_Rank": 308
   },
   {
     "School": "Loyola Maryland",
     "Conference": "Patriot",
-    "Record": "11-19",
-    "Cbbontop_Score": -96.35,
-    "Cbbontop_Rank": 315
-  },
-  {
-    "School": "Gardner-Webb",
-    "Conference": "Big South",
-    "Record": "11-20",
-    "Cbbontop_Score": -96.68,
-    "Cbbontop_Rank": 316
-  },
-  {
-    "School": "IU Indy",
-    "Conference": "Horizon",
-    "Record": "7-22",
-    "Cbbontop_Score": -98.29,
-    "Cbbontop_Rank": 317
-  },
-  {
-    "School": "Weber St.",
-    "Conference": "Big Sky",
-    "Record": "9-22",
-    "Cbbontop_Score": -100.88,
-    "Cbbontop_Rank": 318
-  },
-  {
-    "School": "Lehigh",
-    "Conference": "Patriot",
-    "Record": "9-19",
-    "Cbbontop_Score": -101.03,
-    "Cbbontop_Rank": 319
-  },
-  {
-    "School": "Holy Cross",
-    "Conference": "Patriot",
-    "Record": "11-19",
-    "Cbbontop_Score": -106.08,
-    "Cbbontop_Rank": 320
-  },
-  {
-    "School": "Pacific",
-    "Conference": "WCC",
-    "Record": "7-24",
-    "Cbbontop_Score": -110.02,
-    "Cbbontop_Rank": 321
-  },
-  {
-    "School": "Fairfield",
-    "Conference": "MAAC",
-    "Record": "11-20",
-    "Cbbontop_Score": -111.29,
-    "Cbbontop_Rank": 322
-  },
-  {
-    "School": "Western Carolina",
-    "Conference": "SoCon",
-    "Record": "5-22",
-    "Cbbontop_Score": -111.45,
-    "Cbbontop_Rank": 323
-  },
-  {
-    "School": "Western Illinois",
-    "Conference": "OVC",
-    "Record": "9-19",
-    "Cbbontop_Score": -113.37,
-    "Cbbontop_Rank": 324
-  },
-  {
-    "School": "Southern Mississippi",
-    "Conference": "Sun Belt",
-    "Record": "9-22",
-    "Cbbontop_Score": -113.67,
-    "Cbbontop_Rank": 325
-  },
-  {
-    "School": "Fresno St.",
-    "Conference": "Mountain West",
-    "Record": "6-26",
-    "Cbbontop_Score": -116.94,
-    "Cbbontop_Rank": 326
-  },
-  {
-    "School": "Charleston Southern",
-    "Conference": "Big South",
-    "Record": "8-22",
-    "Cbbontop_Score": -117.06,
-    "Cbbontop_Rank": 327
-  },
-  {
-    "School": "Oral Roberts",
-    "Conference": "Summit League",
-    "Record": "4-22",
-    "Cbbontop_Score": -117.38,
-    "Cbbontop_Rank": 328
-  },
-  {
-    "School": "Southern Indiana",
-    "Conference": "OVC",
-    "Record": "8-20",
-    "Cbbontop_Score": -123.84,
-    "Cbbontop_Rank": 329
-  },
-  {
-    "School": "Niagara",
-    "Conference": "MAAC",
     "Record": "10-20",
-    "Cbbontop_Score": -124.34,
-    "Cbbontop_Rank": 330
+    "Cbbontop_Score": -94.73,
+    "Cbbontop_Rank": 309
+  },
+  {
+    "School": "Manhattan",
+    "Conference": "MAAC",
+    "Record": "11-20",
+    "Cbbontop_Score": -94.95,
+    "Cbbontop_Rank": 310
   },
   {
     "School": "Grambling",
     "Conference": "SWAC",
-    "Record": "9-22",
-    "Cbbontop_Score": -131.02,
-    "Cbbontop_Rank": 331
+    "Record": "12-19",
+    "Cbbontop_Score": -95.45,
+    "Cbbontop_Rank": 311
   },
   {
-    "School": "Buffalo",
-    "Conference": "MAC",
-    "Record": "7-22",
-    "Cbbontop_Score": -132.74,
-    "Cbbontop_Rank": 332
-  },
-  {
-    "School": "Long Beach St.",
-    "Conference": "Big West",
-    "Record": "5-25",
-    "Cbbontop_Score": -136.66,
-    "Cbbontop_Rank": 333
-  },
-  {
-    "School": "Central Arkansas",
-    "Conference": "ASUN",
-    "Record": "7-24",
-    "Cbbontop_Score": -138.66,
-    "Cbbontop_Rank": 334
-  },
-  {
-    "School": "Alabama A&M",
-    "Conference": "SWAC",
-    "Record": "7-22",
-    "Cbbontop_Score": -145.69,
-    "Cbbontop_Rank": 335
-  },
-  {
-    "School": "Coastal Carolina",
-    "Conference": "Sun Belt",
-    "Record": "8-22",
-    "Cbbontop_Score": -152.41,
-    "Cbbontop_Rank": 336
-  },
-  {
-    "School": "Utah Tech",
-    "Conference": "WAC",
-    "Record": "5-26",
-    "Cbbontop_Score": -152.65,
-    "Cbbontop_Rank": 337
-  },
-  {
-    "School": "Detroit Mercy",
-    "Conference": "Horizon",
-    "Record": "7-24",
-    "Cbbontop_Score": -152.75,
-    "Cbbontop_Rank": 338
-  },
-  {
-    "School": "San Diego",
+    "School": "Pepperdine",
     "Conference": "WCC",
-    "Record": "5-27",
-    "Cbbontop_Score": -154.1,
-    "Cbbontop_Rank": 339
-  },
-  {
-    "School": "North Carolina A&T",
-    "Conference": "CAA",
-    "Record": "6-25",
-    "Cbbontop_Score": -159.46,
-    "Cbbontop_Rank": 340
-  },
-  {
-    "School": "Air Force",
-    "Conference": "Mountain West",
-    "Record": "4-28",
-    "Cbbontop_Score": -159.64,
-    "Cbbontop_Rank": 341
-  },
-  {
-    "School": "West Georgia",
-    "Conference": "ASUN",
-    "Record": "5-25",
-    "Cbbontop_Score": -164.53,
-    "Cbbontop_Rank": 342
-  },
-  {
-    "School": "Stony Brook",
-    "Conference": "CAA",
-    "Record": "7-24",
-    "Cbbontop_Score": -166.1,
-    "Cbbontop_Rank": 343
-  },
-  {
-    "School": "Le Moyne",
-    "Conference": "NEC",
     "Record": "7-23",
-    "Cbbontop_Score": -171.31,
-    "Cbbontop_Rank": 344
-  },
-  {
-    "School": "Northern Illinois",
-    "Conference": "MAC",
-    "Record": "3-25",
-    "Cbbontop_Score": -175.26,
-    "Cbbontop_Rank": 345
-  },
-  {
-    "School": "ULM",
-    "Conference": "Sun Belt",
-    "Record": "5-25",
-    "Cbbontop_Score": -177.14,
-    "Cbbontop_Rank": 346
-  },
-  {
-    "School": "Coppin St.",
-    "Conference": "MEAC",
-    "Record": "5-24",
-    "Cbbontop_Score": -177.78,
-    "Cbbontop_Rank": 347
-  },
-  {
-    "School": "Sacramento St.",
-    "Conference": "Big Sky",
-    "Record": "4-25",
-    "Cbbontop_Score": -179.57,
-    "Cbbontop_Rank": 348
-  },
-  {
-    "School": "Cal St. Fullerton",
-    "Conference": "Big West",
-    "Record": "4-26",
-    "Cbbontop_Score": -182.72,
-    "Cbbontop_Rank": 349
-  },
-  {
-    "School": "Stetson",
-    "Conference": "ASUN",
-    "Record": "6-24",
-    "Cbbontop_Score": -187.6,
-    "Cbbontop_Rank": 350
-  },
-  {
-    "School": "The Citadel",
-    "Conference": "SoCon",
-    "Record": "1-25",
-    "Cbbontop_Score": -190.08,
-    "Cbbontop_Rank": 351
-  },
-  {
-    "School": "Bellarmine",
-    "Conference": "ASUN",
-    "Record": "3-26",
-    "Cbbontop_Score": -193.68,
-    "Cbbontop_Rank": 352
+    "Cbbontop_Score": -95.52,
+    "Cbbontop_Rank": 312
   },
   {
     "School": "East Texas A&M",
     "Conference": "Southland",
-    "Record": "5-26",
-    "Cbbontop_Score": -193.73,
-    "Cbbontop_Rank": 353
+    "Record": "9-21",
+    "Cbbontop_Score": -97.75,
+    "Cbbontop_Rank": 313
   },
   {
-    "School": "USC Upstate",
-    "Conference": "Big South",
-    "Record": "3-26",
-    "Cbbontop_Score": -196.24,
-    "Cbbontop_Rank": 354
+    "School": "Southern Utah",
+    "Conference": "WAC",
+    "Record": "7-22",
+    "Cbbontop_Score": -99.82,
+    "Cbbontop_Rank": 314
   },
   {
-    "School": "Green Bay",
+    "School": "Eastern Illinois",
+    "Conference": "OVC",
+    "Record": "10-20",
+    "Cbbontop_Score": -101.4,
+    "Cbbontop_Rank": 315
+  },
+  {
+    "School": "Albany",
+    "Conference": "America East",
+    "Record": "8-21",
+    "Cbbontop_Score": -102.9,
+    "Cbbontop_Rank": 316
+  },
+  {
+    "School": "Loyola Chicago",
+    "Conference": "Atlantic 10",
+    "Record": "9-24",
+    "Cbbontop_Score": -103.49,
+    "Cbbontop_Rank": 317
+  },
+  {
+    "School": "Northern Illinois",
+    "Conference": "MAC",
+    "Record": "7-21",
+    "Cbbontop_Score": -103.9,
+    "Cbbontop_Rank": 318
+  },
+  {
+    "School": "Delaware",
+    "Conference": "CUSA",
+    "Record": "10-20",
+    "Cbbontop_Score": -105.58,
+    "Cbbontop_Rank": 319
+  },
+  {
+    "School": "Northern Arizona",
+    "Conference": "Big Sky",
+    "Record": "7-22",
+    "Cbbontop_Score": -107.22,
+    "Cbbontop_Rank": 320
+  },
+  {
+    "School": "Louisiana",
+    "Conference": "Sun Belt",
+    "Record": "11-22",
+    "Cbbontop_Score": -107.48,
+    "Cbbontop_Rank": 321
+  },
+  {
+    "School": "Cleveland St.",
     "Conference": "Horizon",
-    "Record": "4-27",
-    "Cbbontop_Score": -197.68,
-    "Cbbontop_Rank": 355
+    "Record": "8-22",
+    "Cbbontop_Score": -107.49,
+    "Cbbontop_Rank": 322
   },
   {
-    "School": "UMES",
-    "Conference": "MEAC",
-    "Record": "2-25",
-    "Cbbontop_Score": -198.48,
-    "Cbbontop_Rank": 356
+    "School": "Northwestern St.",
+    "Conference": "Southland",
+    "Record": "8-22",
+    "Cbbontop_Score": -108.38,
+    "Cbbontop_Rank": 323
+  },
+  {
+    "School": "Stetson",
+    "Conference": "ASUN",
+    "Record": "10-21",
+    "Cbbontop_Score": -110.14,
+    "Cbbontop_Rank": 324
+  },
+  {
+    "School": "Southeastern Louisiana",
+    "Conference": "Southland",
+    "Record": "8-22",
+    "Cbbontop_Score": -112.26,
+    "Cbbontop_Rank": 325
+  },
+  {
+    "School": "Evansville",
+    "Conference": "MVC",
+    "Record": "5-25",
+    "Cbbontop_Score": -112.85,
+    "Cbbontop_Rank": 326
+  },
+  {
+    "School": "Alabama St.",
+    "Conference": "SWAC",
+    "Record": "9-22",
+    "Cbbontop_Score": -113.12,
+    "Cbbontop_Rank": 327
+  },
+  {
+    "School": "Georgia St.",
+    "Conference": "Sun Belt",
+    "Record": "8-22",
+    "Cbbontop_Score": -115.34,
+    "Cbbontop_Rank": 328
+  },
+  {
+    "School": "Army",
+    "Conference": "Patriot",
+    "Record": "9-21",
+    "Cbbontop_Score": -119.23,
+    "Cbbontop_Rank": 329
+  },
+  {
+    "School": "Lafayette",
+    "Conference": "Patriot",
+    "Record": "10-21",
+    "Cbbontop_Score": -120.4,
+    "Cbbontop_Rank": 330
   },
   {
     "School": "New Hampshire",
     "Conference": "America East",
-    "Record": "6-24",
-    "Cbbontop_Score": -199.62,
-    "Cbbontop_Rank": 357
+    "Record": "7-21",
+    "Cbbontop_Score": -120.79,
+    "Cbbontop_Rank": 331
   },
   {
-    "School": "NJIT",
-    "Conference": "America East",
-    "Record": "5-25",
-    "Cbbontop_Score": -202.64,
-    "Cbbontop_Rank": 358
-  },
-  {
-    "School": "Prairie View A&M",
-    "Conference": "SWAC",
-    "Record": "4-27",
-    "Cbbontop_Score": -205.88,
-    "Cbbontop_Rank": 359
-  },
-  {
-    "School": "New Orleans",
-    "Conference": "Southland",
-    "Record": "4-27",
-    "Cbbontop_Score": -210.51,
-    "Cbbontop_Rank": 360
-  },
-  {
-    "School": "Chicago St.",
+    "School": "Fairleigh Dickinson",
     "Conference": "NEC",
-    "Record": "4-28",
-    "Cbbontop_Score": -225.64,
-    "Cbbontop_Rank": 361
+    "Record": "8-21",
+    "Cbbontop_Score": -122.82,
+    "Cbbontop_Rank": 332
   },
   {
-    "School": "Arkansas Pine Bluff",
+    "School": "Jackson St.",
     "Conference": "SWAC",
-    "Record": "4-25",
-    "Cbbontop_Score": -231.17,
-    "Cbbontop_Rank": 362
+    "Record": "12-21",
+    "Cbbontop_Score": -124.93,
+    "Cbbontop_Rank": 333
+  },
+  {
+    "School": "Oral Roberts",
+    "Conference": "Summit League",
+    "Record": "7-23",
+    "Cbbontop_Score": -129.64,
+    "Cbbontop_Rank": 334
   },
   {
     "School": "Canisius",
     "Conference": "MAAC",
-    "Record": "3-28",
-    "Cbbontop_Score": -266.7,
+    "Record": "9-21",
+    "Cbbontop_Score": -131.48,
+    "Cbbontop_Rank": 335
+  },
+  {
+    "School": "CSU Bakersfield",
+    "Conference": "Big West",
+    "Record": "6-24",
+    "Cbbontop_Score": -132.5,
+    "Cbbontop_Rank": 336
+  },
+  {
+    "School": "Northeastern",
+    "Conference": "CAA",
+    "Record": "7-24",
+    "Cbbontop_Score": -133.91,
+    "Cbbontop_Rank": 337
+  },
+  {
+    "School": "The Citadel",
+    "Conference": "SoCon",
+    "Record": "8-22",
+    "Cbbontop_Score": -135.52,
+    "Cbbontop_Rank": 338
+  },
+  {
+    "School": "IU Indy",
+    "Conference": "Horizon",
+    "Record": "5-25",
+    "Cbbontop_Score": -141.23,
+    "Cbbontop_Rank": 339
+  },
+  {
+    "School": "North Alabama",
+    "Conference": "ASUN",
+    "Record": "7-21",
+    "Cbbontop_Score": -143.23,
+    "Cbbontop_Rank": 340
+  },
+  {
+    "School": "South Carolina St.",
+    "Conference": "MEAC",
+    "Record": "8-22",
+    "Cbbontop_Score": -144.65,
+    "Cbbontop_Rank": 341
+  },
+  {
+    "School": "Bucknell",
+    "Conference": "Patriot",
+    "Record": "10-23",
+    "Cbbontop_Score": -145.21,
+    "Cbbontop_Rank": 342
+  },
+  {
+    "School": "Bryant",
+    "Conference": "America East",
+    "Record": "7-22",
+    "Cbbontop_Score": -148.62,
+    "Cbbontop_Rank": 343
+  },
+  {
+    "School": "Stonehill",
+    "Conference": "NEC",
+    "Record": "10-21",
+    "Cbbontop_Score": -149.32,
+    "Cbbontop_Rank": 344
+  },
+  {
+    "School": "Alcorn St.",
+    "Conference": "SWAC",
+    "Record": "9-23",
+    "Cbbontop_Score": -149.66,
+    "Cbbontop_Rank": 345
+  },
+  {
+    "School": "Holy Cross",
+    "Conference": "Patriot",
+    "Record": "9-22",
+    "Cbbontop_Score": -154.01,
+    "Cbbontop_Rank": 346
+  },
+  {
+    "School": "Niagara",
+    "Conference": "MAAC",
+    "Record": "7-22",
+    "Cbbontop_Score": -154.41,
+    "Cbbontop_Rank": 347
+  },
+  {
+    "School": "Chicago St.",
+    "Conference": "NEC",
+    "Record": "6-25",
+    "Cbbontop_Score": -157.95,
+    "Cbbontop_Rank": 348
+  },
+  {
+    "School": "UTSA",
+    "Conference": "American",
+    "Record": "3-25",
+    "Cbbontop_Score": -169.0,
+    "Cbbontop_Rank": 349
+  },
+  {
+    "School": "Delaware St.",
+    "Conference": "MEAC",
+    "Record": "5-22",
+    "Cbbontop_Score": -169.13,
+    "Cbbontop_Rank": 350
+  },
+  {
+    "School": "UMES",
+    "Conference": "MEAC",
+    "Record": "7-23",
+    "Cbbontop_Score": -173.64,
+    "Cbbontop_Rank": 351
+  },
+  {
+    "School": "Saint Francis",
+    "Conference": "NEC",
+    "Record": "5-24",
+    "Cbbontop_Score": -176.03,
+    "Cbbontop_Rank": 352
+  },
+  {
+    "School": "Coppin St.",
+    "Conference": "MEAC",
+    "Record": "6-24",
+    "Cbbontop_Score": -188.84,
+    "Cbbontop_Rank": 353
+  },
+  {
+    "School": "Maine",
+    "Conference": "America East",
+    "Record": "7-24",
+    "Cbbontop_Score": -189.9,
+    "Cbbontop_Rank": 354
+  },
+  {
+    "School": "Southern Indiana",
+    "Conference": "OVC",
+    "Record": "5-23",
+    "Cbbontop_Score": -191.55,
+    "Cbbontop_Rank": 355
+  },
+  {
+    "School": "Rider",
+    "Conference": "MAAC",
+    "Record": "3-25",
+    "Cbbontop_Score": -195.49,
+    "Cbbontop_Rank": 356
+  },
+  {
+    "School": "Air Force",
+    "Conference": "Mountain West",
+    "Record": "3-29",
+    "Cbbontop_Score": -196.44,
+    "Cbbontop_Rank": 357
+  },
+  {
+    "School": "North Florida",
+    "Conference": "ASUN",
+    "Record": "5-25",
+    "Cbbontop_Score": -203.58,
+    "Cbbontop_Rank": 358
+  },
+  {
+    "School": "VMI",
+    "Conference": "SoCon",
+    "Record": "3-26",
+    "Cbbontop_Score": -205.98,
+    "Cbbontop_Rank": 359
+  },
+  {
+    "School": "Binghamton",
+    "Conference": "America East",
+    "Record": "5-23",
+    "Cbbontop_Score": -209.49,
+    "Cbbontop_Rank": 360
+  },
+  {
+    "School": "Kansas City",
+    "Conference": "Summit League",
+    "Record": "1-27",
+    "Cbbontop_Score": -230.54,
+    "Cbbontop_Rank": 361
+  },
+  {
+    "School": "ULM",
+    "Conference": "Sun Belt",
+    "Record": "2-28",
+    "Cbbontop_Score": -235.33,
+    "Cbbontop_Rank": 362
+  },
+  {
+    "School": "Gardner-Webb",
+    "Conference": "Big South",
+    "Record": "2-28",
+    "Cbbontop_Score": -240.04,
     "Cbbontop_Rank": 363
+  },
+  {
+    "School": "Western Illinois",
+    "Conference": "OVC",
+    "Record": "2-26",
+    "Cbbontop_Score": -264.38,
+    "Cbbontop_Rank": 364
   },
   {
     "School": "Mississippi Valley St.",
     "Conference": "SWAC",
-    "Record": "1-28",
-    "Cbbontop_Score": -299.34,
-    "Cbbontop_Rank": 364
+    "Record": "2-30",
+    "Cbbontop_Score": -300.15,
+    "Cbbontop_Rank": 365
   }
 ]
