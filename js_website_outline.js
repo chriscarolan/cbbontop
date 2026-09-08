@@ -10,7 +10,7 @@ fetch('cbbontop_rankings.json')
                         <th>School</th>
                         <th>Conference</th>
                         <th> 2025-26 Record</th>
-                        <th>2025-26 Cbbontop Score</th>
+                        <th>2025-26 cbbontop Score</th>
                     </tr>
                 </thead>
                 <tbody>
