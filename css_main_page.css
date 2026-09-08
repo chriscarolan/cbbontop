@@ -165,9 +165,18 @@ body {
     .rankings-table th,
     .rankings-table td {
         padding: 8px 4px;
-        width: 20%;
         vertical-align: middle;
         word-wrap: break-word;
+    }
+
+    .rankings-table th:nth-child(-n+4),
+    .rankings-table td:nth-child(-n+4) {
+        width: 19%;
+    }
+
+    .rankings-table th:nth-child(5),
+    .rankings-table td:nth-child(5) {
+        width: 24%;
     }
 }
 
