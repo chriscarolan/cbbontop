@@ -45,6 +45,10 @@ body {
     font-size: 17px;
 }
 
+.th-short {
+    display: none;
+}
+
 .rankings-table th {
     background-color: #014227;
     color: white;
@@ -146,11 +150,24 @@ body {
     
     .rankings-table {
         font-size: 12px;
+        table-layout: fixed;
+        width: 100%;
+    }
+
+    .th-full {
+        display: none;
+    }
+
+    .th-short {
+        display: inline;
     }
     
     .rankings-table th,
     .rankings-table td {
-        padding: 6px 2px;
+        padding: 8px 4px;
+        width: 20%;
+        vertical-align: middle;
+        word-wrap: break-word;
     }
 }
 
