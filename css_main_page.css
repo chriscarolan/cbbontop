@@ -64,10 +64,16 @@ body {
     background: 0.5;
 }
 
-img {
-   float: center;
-   
-   }
+.site-header {
+    text-align: center;
+}
+
+.site-logo {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 16px auto 0;
+}
 /* Mobile responsive design - HAMBURGER MENU */
 @media (max-width: 768px) {
     /* Hide navigation by default on mobile */
