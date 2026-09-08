@@ -66,13 +66,16 @@ body {
 
 .site-header {
     text-align: center;
+    padding: 12px 16px 0;
 }
 
 .site-logo {
     display: block;
     width: 100px;
     height: 100px;
-    margin: 16px auto 0;
+    max-width: 30vw;
+    max-height: 30vw;
+    margin: 12px auto 0;
 }
 /* Mobile responsive design - HAMBURGER MENU */
 @media (max-width: 768px) {
@@ -123,10 +126,23 @@ body {
         min-height: 44px;
     }
     
+    .center-text {
+        font-size: 22px;
+    }
+
+    .site-logo {
+        width: 72px;
+        height: 72px;
+        max-width: 72px;
+        max-height: 72px;
+    }
+
     /* Rankings table adjustments */
     #rankings-display {
         margin-top: 20px;
         margin-bottom: 20px;
+        width: calc(100% - 24px);
+        overflow-x: auto;
     }
     
     .rankings-table {
