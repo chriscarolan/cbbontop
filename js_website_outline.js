@@ -6,11 +6,11 @@ fetch('cbbontop_rankings.json')
             <table class="rankings-table">
                 <thead>
                     <tr>
-                        <th>Rank</th>
+                        <th>2025-26 Rank</th>
                         <th>School</th>
                         <th>Conference</th>
-                        <th>Record</th>
-                        <th>Cbbontop Score</th>
+                        <th> 2025-26 Record</th>
+                        <th>2025-26 Cbbontop Score</th>
                     </tr>
                 </thead>
                 <tbody>
