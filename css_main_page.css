@@ -138,10 +138,10 @@ body {
 
     /* Rankings table adjustments */
     #rankings-display {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        width: calc(100% - 24px);
-        overflow-x: auto;
+        margin: 12px;
+        padding: 10px;
+        width: auto;
+        overflow-x: visible;
     }
     
     .rankings-table {
